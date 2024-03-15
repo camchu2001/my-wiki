@@ -13,6 +13,14 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'camchu2001', // Usually your GitHub org/user name.
+  projectName: 'my-wiki', // Usually your repo name.
+
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -60,6 +68,21 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Tutorial',
+        },
+        {
+          to: "https://camchu.me",
+          position: "right",
+          label: "website",
+        },
+        {
+          to: "https://github.com/camchu2001",
+          position: "right",
+          label: "github",
+        },
+        {
+          to: "https://codepen.io/Cam-Chu",
+          position: "right",
+          label: "codepen",
         },
       ],
     },

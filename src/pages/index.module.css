@@ -3,6 +3,10 @@
  * and scoped locally.
  */
 
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
