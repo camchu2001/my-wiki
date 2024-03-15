@@ -1,5 +1,5 @@
 **This contains all my notes from the official AWS Academy Cloud Foundations course. Hopefully, this help you prepare for the [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) exam.**
-## 1. Module 1 - Cloud Concepts Overview
+## I. Module 1 - Cloud Concepts Overview
 > #### **Topics**
 > * Introduction to cloud computing
 > * Advantages to cloud computing 
@@ -105,23 +105,30 @@ A **web service** is any piece of software that makes itself available over the 
 * Each perspective consists of sets of **capabilities**, which covers different responsibilities that are owned/managed by cross-functional teams. → **specific guidance and steps** to help organizations navigate that particular aspect of their cloud adoption journey.
 ---
 * **Business Perspective**: 
+
 ![business-perspective | 350](https://i.imgur.com/hsnZSlC.png)
 
 * **People Perspective:** 
+
 ![people-perspective | 350](https://i.imgur.com/9ta0Hsb.png)
 
 * **Governance Perspective:** 
+
 ![governance-perspective | 350](https://i.imgur.com/ghSiSUw.png)
+
 * **Platform Perspective**: 
+
 ![platform-perspective | 350](https://i.imgur.com/3ORGzla.png)
 
 * **Security Perspective**:
+
 ![security-perspective | 350](https://i.imgur.com/6FqSqiO.png)
 
 * **Operations Perspective:**
+
 ![operations-perspective | 350](https://i.imgur.com/0Nh5xQO.png)
 
-## 2. Module 2 - Cloud Economics and Billing
+## II. Module 2 - Cloud Economics and Billing
 > #### **Topics**
 > * Fundamentals of pricing
 > * Total Cost of Ownership 
