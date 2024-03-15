@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Cam Chu Wiki',
-  tagline: 'Hi there! Welcome to my Wiki',
+  tagline: 'Hi there! Welcome to my second brain~',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,52 +64,6 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
       ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          items: [
-            {
-              label: 'my website',
-              href: 'https://camchu.me',
-            }
-          ],
-        },
-        {
-          items: [
-            {
-              label: 'linkedin',
-              href: 'https://www.linkedin.com/in/cam-chu/',
-            }
-          ],
-        },
-        {
-          items: [
-            {
-              label: 'github',
-              href: 'https://github.com/camchu2001',
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: 'codepen',
-              href: 'https://codepen.io/Cam-Chu',
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: 'email',
-              href: 'mailto:camchu.dev@gmail.com',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cam Chu Wiki. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
