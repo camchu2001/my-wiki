@@ -104,19 +104,7 @@ A **web service** is any piece of software that makes itself available over the 
 	* business, people, governance → **business** capabilities
 	*  platform, security, operations → **technical** capabilities
 * Each perspective consists of sets of **capabilities**, which covers different responsibilities that are owned/managed by cross-functional teams. → **specific guidance and steps** to help organizations navigate that particular aspect of their cloud adoption journey.
-![](https://i.imgur.com/ylMFShm.png)
-![](https://i.imgur.com/Uffgp5t.png)
-![](https://i.imgur.com/opXBXmI.png)
-![](https://i.imgur.com/f8cyjoD.png)
-
-| <center>**Business Perspective**</center>                         | <center>**People Perspective**</center>                               |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------- |
-| ![business-perspective \| 350](https://i.imgur.com/hsnZSlC.png)   | ![people-perspective \| 350](https://i.imgur.com/9ta0Hsb.png)         |
-| <center>**Governance Perspective**</center>                       | <center>**Platform Perspective**</center>                             |
-| ![governance-perspective \| 350](https://i.imgur.com/ghSiSUw.png) | ![platform-perspective \| 350](https://i.imgur.com/3ORGzla.png)<br>   |
-| <center>**Security Perspective**</center>                         | <center>**Operations Perspective**</center>                           |
-| ![security-perspective \| 350](https://i.imgur.com/6FqSqiO.png)   | ![operations-perspective \| 350](https://i.imgur.com/0Nh5xQO.png)<br> |
-
+![perpectives | 700](https://i.imgur.com/7OxK8my.png)
 # 2. Module 2 - Cloud Economics and Billing
 > #### **Topics**
 > * Fundamentals of pricing
