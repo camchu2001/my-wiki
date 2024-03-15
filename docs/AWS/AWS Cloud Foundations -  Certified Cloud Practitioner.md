@@ -1,5 +1,5 @@
 **This contains all my notes from the official AWS Academy Cloud Foundations course. Hopefully, this help you prepare for the [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) exam.**
-# 1. Module 1 - Cloud Concepts Overview
+## 1. Module 1 - Cloud Concepts Overview
 > #### **Topics**
 > * Introduction to cloud computing
 > * Advantages to cloud computing 
@@ -121,7 +121,7 @@ A **web service** is any piece of software that makes itself available over the 
 * **Operations Perspective:**
 ![operations-perspective | 350](https://i.imgur.com/0Nh5xQO.png)
 
-# 2. Module 2 - Cloud Economics and Billing
+## 2. Module 2 - Cloud Economics and Billing
 > #### **Topics**
 > * Fundamentals of pricing
 > * Total Cost of Ownership 
