@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Hello! Welcome to my Wiki!
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
