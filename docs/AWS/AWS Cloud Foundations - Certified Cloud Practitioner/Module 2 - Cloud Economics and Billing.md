@@ -34,3 +34,38 @@ There are 3 **fundamental drivers** of cost with AWS.
 	* **Services with no charge**: Amazon VPC, Elastic Beanstalk, Auto Scaling, AWS CloudFormation, AWS Identity and Access Management. 
 	* There might be charges associated with other AWS services that are used with these services. 
 ## 2. Total Cost of Ownership
+### 1. On Premises vs. Cloud 
+1. An **on-premises** infrastructure is installed on a company’s own computers and servers. There are several **fixed costs (capital expenses)** associated with this traditional infrastructure: 
+	* facilities, hardware, licenses, maintenance staff, etc
+	* scaling up can be expensive and time-consuming, scaling down does not reduce fixed costs.  
+
+To <u>evaluate</u> an on-premise solution, consider **capital expenditure** and **long planning cycles**.  
+
+2. A **cloud infrastructure** is purchased from a ***service provider*** who builds and maintains the facilities hardware, and maintenance staff. 
+	* a customer pays for what’s used, so scaling up down is simple
+	* costs are easy to estimate because they depend on service use. 
+
+To <u>evaluate</u> AWS Cloud solutions, considers flexibility, agility, **consumption-based costs**. 
+### 2. Total Cost of Ownership
+**Total Cost of Ownership (TCO)** is the financial *estimate* to help identify direct and indirect costs of a system. 
+* TCO considers the **cost of a service + all the costs associated with owning the service**. 
+![tco-considerations](https://i.imgur.com/xGrI1IZ.png)
+
+We use TCO to: 
+* **compare the costs** of running an entire infrastructure environment on specific workload **on premises vs. on AWS**. 
+* to budget and making decisions for moving to the cloud. 
+
+1. <u>**Cloud**</u>: most costs are **upfront** and **readily calculated** using metrics such as RAM, storage, bandwidth, etc. → certainty over pricing estimates. 
+2. <u>**On-premises**</u>: must consider all direct and indirect costs of running, maitaining a physical server. 
+
+<u>Example</u>: On-premises vs. All-in-cloud
+→You cloud save up to **96%** a year by moving your infrastructure to AWS, saving **$159,913** total.
+![](https://i.imgur.com/DkS7RnA.png)
+### 3. AWS Pricing Calculator
+Use the **AWS Pricing Calculator** to: 
+* Estimate monthly costs. 
+* Identify opportunities to reduce monthly costs. 
+* Model your solutions before building them. 
+* Explore price points and calculations behind your estimates. 
+* Find the available instance types and contract terms that meet your needs. 
+* Name your estimate and create and name groups of services. 
