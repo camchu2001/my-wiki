@@ -69,11 +69,11 @@ const config: Config = {
           position: "right",
           label: "github",
         },
-        {
-          to: "https://codepen.io/Cam-Chu",
-          position: "right",
-          label: "codepen",
-        },
+        // {
+        //   to: "https://codepen.io/Cam-Chu",
+        //   position: "right",
+        //   label: "codepen",
+        // },
       ],
     },
     prism: {
