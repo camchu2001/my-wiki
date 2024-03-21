@@ -20,8 +20,8 @@ print("n =", n)
 n, m, z = 0.125, "abc", False
 
 print("n =", n)
-
-print('m =', m)
+print("m =", m)
+print("z =", z)
 ```
 
 **Incrementing** in Python is a little bit different: 
@@ -56,7 +56,7 @@ else:
 # parenthese are needed for multi-line conditions
 n, m = 1, 2
 if ((n > 2 and
-	 n != m) or n == m):
+  n != m) or n == m):
   n += 1
 ```
 ## 3. Loops
@@ -103,6 +103,6 @@ print(-3 // 2) # -1.5, but gets rounded DOWN to -2, not UP to -1
 
 # to round towards zero
 # use decimal division then convert to int
-print(int(-3 // 2))
+print(int(-3 / 2))
 >>> 1
 ```
