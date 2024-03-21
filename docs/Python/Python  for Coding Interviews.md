@@ -123,5 +123,32 @@ print(-10 % 3)
 import math
 print(math.fmod(-10, 3))
 >>> -1.0
+```
 
+* **Other math helpers**: 
+```python
+print(math.floor(3 / 2))
+>>> 1
+
+print(math.ceil(3 / 2))
+>>> 2
+
+print(math.sqrt(4))
+>>> 2.0
+
+print(math.pow(2, 3))
+>>> 8.0
+```
+
+* **Max, Min integer:** 
+```python
+float("inf") # max
+float("-inf") # min
+
+# Python numbers are infinite so they never overflow
+print(math.pow(2, 200))
+
+# But still less than infinity
+print(math.pow(2, 200) < float("inf"))
+>>> True
 ```
