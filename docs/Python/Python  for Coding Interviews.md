@@ -1,4 +1,4 @@
-**I am not a Python expert**. I am a web developer and have been using mostly JavaScript and TypeScript in my past work experience. However, I use Python for my coding interviews. Its concise syntax and dynamic typing (a blessing and a curse 😅) make it perfect for quickly writing solutions to coding problems under pressure. 
+**I am no Python expert** 😔. I am a web developer and have been using mostly JavaScript and TypeScript in my past work experience. However, I use Python for my coding interviews. Its concise syntax and dynamic typing (a blessing and a curse 😅) make it perfect for quickly writing solutions to coding problems under pressure. 
 
 This document should serve as a **quick guide to Python**, introducing you to the syntax and basic components that you’d need when using Python for coding interviews. It is **not a comprehensive** guide to Python, you’d need more than this to build an entire software with Python. 
 
@@ -88,6 +88,7 @@ for i in range(5, 1, -1):
 >>> 5, 4, 3, 2
 ```
 ## 4. Math
+* **Division**: 
 ```python
 # division is decimal by default
 print(5 / 2)
@@ -105,4 +106,22 @@ print(-3 // 2) # -1.5, but gets rounded DOWN to -2, not UP to -1
 # use decimal division then convert to int
 print(int(-3 / 2))
 >>> 1
+```
+
+* **Mod**: 
+```python
+# similar to most languages
+print(10 % 3)
+>>> 1
+
+# different wtih negative values
+# this can be confusing
+print(-10 % 3)
+>>> 2
+
+# To be consistent with other languages modulo
+import math
+print(math.fmod(-10, 3))
+>>> -1.0
+
 ```
