@@ -147,8 +147,42 @@ float("-inf") # min
 
 # Python numbers are infinite so they never overflow
 print(math.pow(2, 200))
+>>> 1.6069380442589903e+60
 
 # But still less than infinity
 print(math.pow(2, 200) < float("inf"))
 >>> True
+```
+## 5. Arrays - Lists
+```python
+arr = [1, 2, 3] # declare
+print(arr)
+>>> [1, 2, 3]
+```
+* Python’s arrays are dynamic, so they can be used as a **stack**. The `append()` and `pop()` operations take a time complexity of **O(1)**, because it’s just inserting to the last index.  
+```python
+# insert to the end
+arr.append(4) 
+arr.append(5)
+print(arr)
+>>> [1, 2, 3, 4, 5]
+
+# remove the end value
+arr.pop()
+print(arr)
+>>> [1, 2, 3, 4] # popped value 5
+```
+
+* Insertion and deletion a value into/from a random index `ith` has a **O(n)** complexity, because it needs to shift all the other elements to the right/left: 
+```python
+# insert a value to a specific index
+arr.insert(1, 7) # inserting 7 to index 1
+arr.insert(6, 7) # inserting 7 to index 6
+print(arr)
+>>> [1, 7, 2, 3, 4, 7]
+
+# remove a value from the array
+arr.remove(7) # removing element 7 from the array
+print(arr)
+>>> [1, 2, 3, 4]
 ```
