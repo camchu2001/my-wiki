@@ -7,17 +7,21 @@ This document should serve as a **quick guide to Python**, introducing you to th
 Python is a **dynamically typed** programming language, so **data type is determined at run time**. That’s why unlike other statically typed languages like C++ or Java, you don’t need to declare the data type, at all!
 ```python
 n = 0 # no need to specify data type 
-print("n = ", n) 
+print("n =", n) 
 >>> n = 0
 
 n = "abc" # reassigned data type to string
-print("n = ", n)
+print("n =", n)
 >>> n = abc
 
-# multiple assignments
-# syntax: variable1 variable2: value1, value2
-n, m = 0, "abc" 
+# multiple assignments. 
+# syntax: variable1, variable2 ...: value1, value2, ...
+
 n, m, z = 0.125, "abc", False
+
+print("n =", n)
+
+print('m =', m)
 ```
 
 **Incrementing** in Python is a little bit different: 
@@ -31,7 +35,7 @@ Python doesn’t use `null` for an absence of value, it uses **`None`**.
 ```python
 n = 4
 n = None
-print("n = ", n) 
+print("n =", n) 
 >>> n = None
 ```
 ## 2. Conditional Statements
@@ -82,4 +86,23 @@ for i in range(2, 6):
 for i in range(5, 1, -1):
 	print(i)
 >>> 5, 4, 3, 2
+```
+## 4. Math
+```python
+# division is decimal by default
+print(5 / 2)
+>>> 2.5
+
+# double slash rounds DOWN
+print(5 // 2)
+>>> 2
+
+# NOTE: round DOWN not towards 0
+print(-3 // 2) # -1.5, but gets rounded DOWN to -2, not UP to -1
+>>> 2 
+
+# to round towards zero
+# use decimal division then convert to int
+print(int(-3 // 2))
+>>> 1
 ```
