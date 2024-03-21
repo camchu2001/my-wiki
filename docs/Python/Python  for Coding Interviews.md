@@ -248,3 +248,37 @@ for i, n in enumerate(nums)
 >>> 1 2
 >>> 2 3
 ```
+
+* **Looping** through multiple arrays simultaneously with **unpacking** and **`zip()` function**. Zip combine the two arrays into an array for pair
+```python
+nums1 = [1, 3, 5]
+nums2 = [2, 4, 6]
+print(zip(nums1, nums2))
+>>> 
+
+for n1, n2 in zip(nums1, nums2): 
+	print(n1, n2)
+>>> 1 2
+>>> 3 4
+>>> 5 6
+```
+
+* **Reverse an array:***
+```python
+nums = [1, 2, 3]
+nums.reverse()
+print(nums)
+>>> [3, 2, 1]
+```
+
+* **Sorting an array**, the default is ascending order: 
+```python
+arr = [5, 4, 23, 1, 0, 8]
+arr.sort()
+print(arr)
+>>> [0, 1, 4, 5, 8, 23]
+
+arr.sort(reverse = True)
+print(arr)
+>>> [23, 8, 5, 4, 1, 0]
+```
