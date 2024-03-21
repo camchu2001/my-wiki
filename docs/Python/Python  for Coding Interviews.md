@@ -159,7 +159,7 @@ arr = [1, 2, 3] # declare
 print(arr)
 >>> [1, 2, 3]
 ```
-* Python’s arrays are dynamic, so they can be used as a **stack**. The `append()` and `pop()` operations take a time complexity of **O(1)**, because it’s just inserting/removing the last index’s value.  
+* Python’s arrays are dynamic, so they can be used as a **stack**. The **`append()` and `pop()` operations** take a time complexity of **O(1)**, because it’s just inserting/removing the last index’s value.  
 ```python
 # insert to the end
 arr.append(4) 
@@ -173,7 +173,7 @@ print(arr)
 >>> [1, 2, 3, 4] # popped value 5
 ```
 
-* Insertion and deletion a value into/from a random index `ith` has a **O(n)** complexity, because it needs to shift all the other elements to the right/left: 
+* **Insertion and deletion** a value into/from a random index `ith` has a **O(n)** complexity, because it needs to shift all the other elements to the right/left: 
 ```python
 # insert a value to a specific index
 arr.insert(1, 7) # inserting 7 to index 1
@@ -185,4 +185,66 @@ print(arr)
 arr.remove(7) # removing element 7 from the array
 print(arr)
 >>> [1, 2, 3, 4, 7]
+```
+
+* **Accessing/reassigning** the value of an array’s index is **O(1)** time complexity:
+```python
+arr[0] = 0
+arr[3] = 0
+print(arr)
+>>> [0, 2, 3, 0, 7]
+
+# negative index reads the value from the end
+arr[-1] = 7
+arr[-2] = 0
+```
+
+* **Initializing** an array of size n with default value of 1
+```python
+n = 5
+arr = [1] * n
+print(arr)
+>>> [1, 1, 1, 1, 1]
+
+print(len(arr)) 
+>>> 5
+```
+
+* **Sublists (slicing)**, last index is non-inclusive: 
+```python
+arr = [1, 2, 3, 4]
+print(arr[1:3])
+>>> [2, 3] # doesn't include 3rd index
+
+print(arr[0: 4])
+>>> [1, 2, 3, 4]
+```
+
+* **Unpacking**, helpful for when you want to go through a list of pairs: 
+```python
+# the number of variables = number of elements in the array
+a, b, c = [1, 2, 3]
+print(a, b, c)
+>>> 1 2 3
+```
+
+* **Looping through an array**: 
+```python
+nums = [1, 2, 3]
+
+for i in range(len(nums)):
+  print(nums[i])
+>>> 1 2 3
+
+# you can do the same operation without using index
+for num in nums: 
+  print(num)
+>>> 1 2 3
+
+# print both index and value
+for i, n in enumerate(nums)
+  print(i, n)
+>>> 0 1
+>>> 1 2
+>>> 2 3
 ```
