@@ -252,10 +252,17 @@ for i, n in enumerate(nums)
 >>> 2 3
 ```
 
-* **Looping** through multiple arrays simultaneously with **unpacking** and **`zip()` function**. Zip combine the two arrays into an array for pair
+* **Looping** through multiple arrays simultaneously with **unpacking** and **`zip()` function**. `zip()` combines the elements from `list1` and `list2` into tuples, pairing up the corresponding elements
 ```python
 nums1 = [1, 3, 5]
 nums2 = [2, 4, 6]
+zipped = zip(nums1, nums2)
+
+for element in zipped:
+  print(element)
+>>> (1, 2)
+>>> (3, 4)
+>>> (5, 6)
 
 for n1, n2 in zip(nums1, nums2): 
   print(n1, n2)
