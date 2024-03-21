@@ -1,4 +1,4 @@
-**I am no Python expert** 😔. I am a web developer and have been using mostly JavaScript and TypeScript in my past work experience. However, I use Python for my coding interviews. Its concise syntax and dynamic typing (a blessing and a curse 😅) make it perfect for quickly writing solutions to coding problems under pressure. 
+**I am no Python expert** 😔. I am a web developer and have been using mostly JavaScript and TypeScript in my past work experience. However, I use Python for my coding interviews. Its concise syntax and dynamic typing (a blessing and a curse 😅) enable writing solutions to coding problems quickly under pressure. 
 
 This document should serve as a **quick guide to Python**, introducing you to the syntax and basic components that you’d need when using Python for coding interviews. It is **not a comprehensive** guide to Python, you’d need more than this to build an entire software with Python. 
 
@@ -303,7 +303,7 @@ print(arr)
 >>> ["cece", "zeke", "billy", "keith", "annabeth"]
 ```
 
-* **List comprehension***, a more advanced way to initialize lists: 
+* **List comprehension**, a more advanced way to initialize lists: 
 ```python
 arr = [i for i in range(5)]
 print(arr)
@@ -316,4 +316,12 @@ print(arr)
 
 * **2-D Lists**: 
 ```python
+# declare a 2D array
+arr = [[0] * 4 for i in range(4)]
+print(arr)
+>>> [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+
+# however, this won't work
+arr = [[0] * 4] * 4
+print(arr)
 ```
