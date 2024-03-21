@@ -195,8 +195,11 @@ print(arr)
 >>> [0, 2, 3, 0, 7]
 
 # negative index reads the value from the end
-arr[-1] = 7
-arr[-2] = 0
+print(arr[-1]) 
+>>> 7
+
+print(arr[-2])
+>>> 0
 ```
 
 * **Initializing** an array of size n with default value of 1
@@ -253,17 +256,15 @@ for i, n in enumerate(nums)
 ```python
 nums1 = [1, 3, 5]
 nums2 = [2, 4, 6]
-print(zip(nums1, nums2))
->>> 
 
 for n1, n2 in zip(nums1, nums2): 
-	print(n1, n2)
+  print(n1, n2)
 >>> 1 2
 >>> 3 4
 >>> 5 6
 ```
 
-* **Reverse an array:***
+* **Reverse an array:**
 ```python
 nums = [1, 2, 3]
 nums.reverse()
@@ -278,6 +279,7 @@ arr.sort()
 print(arr)
 >>> [0, 1, 4, 5, 8, 23]
 
+# sort in descending order
 arr.sort(reverse = True)
 print(arr)
 >>> [23, 8, 5, 4, 1, 0]
