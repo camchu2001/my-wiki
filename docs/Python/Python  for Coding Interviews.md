@@ -159,7 +159,7 @@ arr = [1, 2, 3] # declare
 print(arr)
 >>> [1, 2, 3]
 ```
-* Python’s arrays are dynamic, so they can be used as a **stack**. The `append()` and `pop()` operations take a time complexity of **O(1)**, because it’s just inserting to the last index.  
+* Python’s arrays are dynamic, so they can be used as a **stack**. The `append()` and `pop()` operations take a time complexity of **O(1)**, because it’s just inserting/removing the last index’s value.  
 ```python
 # insert to the end
 arr.append(4) 
@@ -177,12 +177,12 @@ print(arr)
 ```python
 # insert a value to a specific index
 arr.insert(1, 7) # inserting 7 to index 1
-arr.insert(6, 7) # inserting 7 to index 6
+arr.insert(6, 7) # inserting 7 to index 6, even if 6 is out of bound it works
 print(arr)
 >>> [1, 7, 2, 3, 4, 7]
 
-# remove a value from the array
+# remove the first occurence of a value from the array
 arr.remove(7) # removing element 7 from the array
 print(arr)
->>> [1, 2, 3, 4]
+>>> [1, 2, 3, 4, 7]
 ```
