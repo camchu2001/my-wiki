@@ -50,13 +50,13 @@ else:
 	n +=2 # this code belongs to the else block
 ```
 
-* ***`and` = `&&`**
+* **`and` = `&&`**
 * **`or` == `||`**
 ```python
 # parenthese are needed for multi-line conditions
 n, m = 1, 2
 if ((n > 2 and
-	 n! m) or n == m):
+	 n != m) or n == m):
 	n += 1
 ```
 ## 3. Loops
@@ -64,8 +64,8 @@ if ((n > 2 and
 # while loops are relatively straightforward
 n = 0
 while n < 5: 
-    print(n)
-	n += 1 
+    print(n) 
+ n += 1 
 >>> 0 1 2 3 4
 
 # for loops usually utilizes the range() function
