@@ -43,11 +43,11 @@ Python doesn't use parentheses or curly braces. Instead, it relies on **indentat
 ```python
 n = 1
 if n > 2:
-	n-= 1 # this code belongs to the if block
+  n-= 1 # this code belongs to the if block
 elif n == 2: 
-	n *= 2 # this code belongs to the elif (else if) block
+  n *= 2 # this code belongs to the elif (else if) block
 else: 
-	n +=2 # this code belongs to the else block
+  n +=2 # this code belongs to the else block
 ```
 
 * **`and` = `&&`**
@@ -57,21 +57,21 @@ else:
 n, m = 1, 2
 if ((n > 2 and
 	 n != m) or n == m):
-	n += 1
+  n += 1
 ```
 ## 3. Loops
 ```python
 # while loops are relatively straightforward
 n = 0
 while n < 5: 
-    print(n) 
- n += 1 
+  print(n) 
+  n += 1 
 >>> 0 1 2 3 4
 
 # for loops usually utilizes the range() function
 # loop from i = 0 to i = 4, 5 is not included
 for i in range(5): 
-	print(i)
+  print(i)
 >>> 0 1 2 3 4
 ```
 
@@ -79,12 +79,12 @@ for i in range(5):
 ```python
 # looping from i = 2 to i = 5
 for i in range(2, 6): 
-	print(i)
+  print(i)
 >>> 2, 3, 4, 5
 
 # looping in reverse, from i = 5 to i = 2
 for i in range(5, 1, -1):
-	print(i)
+  print(i)
 >>> 5, 4, 3, 2
 ```
 ## 4. Math
