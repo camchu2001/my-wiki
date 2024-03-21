@@ -14,7 +14,8 @@ n = "abc" # reassigned data type to string
 print("n = ", n)
 >>> n = abc
 
-# multiple assignments. syntax: variable1 variable2: value1, value2
+# multiple assignments
+# syntax: variable1 variable2: value1, value2
 n, m = 0, "abc" 
 n, m, z = 0.125, "abc", False
 ```
@@ -58,13 +59,27 @@ if ((n > 2 and
 ```python
 # while loops are relatively straightforward
 n = 0
-while n < 5 
+while n < 5: 
     print(n)
 	n += 1 
->>> 0, 1, 2, 3, 4
+>>> 0 1 2 3 4
 
 # for loops usually utilizes the range() function
-# loop from i = 0 to i =  4
+# loop from i = 0 to i = 4, 5 is not included
 for i in range(5): 
 	print(i)
+>>> 0 1 2 3 4
+```
+
+* `range()` function
+```python
+# looping from i = 2 to i = 5
+for i in range(2, 6): 
+	print(i)
+>>> 2, 3, 4, 5
+
+# looping in reverse, from i = 5 to i = 2
+for i in range(5, 1, -1):
+	print(i)
+>>> 5, 4, 3, 2
 ```
