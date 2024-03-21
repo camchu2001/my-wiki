@@ -321,7 +321,19 @@ arr = [[0] * 4 for i in range(4)]
 print(arr)
 >>> [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
 
-# however, this won't work
+arr[0][1] = 2
+print(arr)
+>>> [[0, 2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+
+# however, this syntax won't work
+# because it's the same list is replicated four times
+# when you modify one inner list, you end up modifying all of them
 arr = [[0] * 4] * 4
 print(arr)
+>>> [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+
+arr[0][1] = 2
+print(arr)
+>>> [[0, 2, 0, 0], [0, 2, 0, 0], [0, 2, 0, 0], [0, 2, 0, 0]]
 ```
+## 6. Strings
