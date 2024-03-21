@@ -290,4 +290,17 @@ print(arr)
 arr.sort(reverse = True)
 print(arr)
 >>> [23, 8, 5, 4, 1, 0]
+
+# sorting an array of strings - alphabetical order by default
+arr["billy", "zeke", "keith", "cece", "annabeth"]
+arr.sort()
+print(arr)
+>>> ["annabeth", "billy", "cece", "keith", "zeke"]
+
+# custom sort (by length of string)
+arr.sort(key=lambda x: len(x))
+print(arr)
+>>> ["cece", "zeke", "billy", "keith", "annabeth"]
 ```
+
+* **List comprehension***, a more advanced way to initialize lists: 
