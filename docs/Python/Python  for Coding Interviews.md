@@ -326,8 +326,8 @@ print(arr)
 >>> [[0, 2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
 # however, this syntax won't work
-# because it's the same list is replicated four times
-# when you modify one inner list, you end up modifying all of them
+# it's the same list is replicated 4 times, not 4 different lists
+# -> when you modify one inner list, you end up modifying all of them
 arr = [[0] * 4] * 4
 print(arr)
 >>> [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
