@@ -292,7 +292,7 @@ print(arr)
 >>> [23, 8, 5, 4, 1, 0]
 
 # sorting an array of strings - alphabetical order by default
-arr["billy", "zeke", "keith", "cece", "annabeth"]
+arr = ["billy", "zeke", "keith", "cece", "annabeth"]
 arr.sort()
 print(arr)
 >>> ["annabeth", "billy", "cece", "keith", "zeke"]
@@ -304,3 +304,16 @@ print(arr)
 ```
 
 * **List comprehension***, a more advanced way to initialize lists: 
+```python
+arr = [i for i in range(5)]
+print(arr)
+>>> [0, 1, 2, 3, 4]
+
+arr = [i+i for i in range(5)]
+print(arr)
+>>> [0, 2, 4, 6, 8]
+```
+
+* **2-D Lists**: 
+```python
+```
