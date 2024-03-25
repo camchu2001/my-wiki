@@ -68,4 +68,16 @@ Use the **AWS Pricing Calculator** to:
 * Model your solutions before building them. 
 * Explore price points and calculations behind your estimates. 
 * Find the available instance types and contract terms that meet your needs. 
-* Name your estimate and create and name groups of services. 
+* Name your estimate and create and name **groups** of services. 
+
+![](https://i.imgur.com/ULzzTdb.png)
+
+**A Return on Investment analysis (ROI)** can be used to determine that value that’s generated from the impact of moving to the cloud while considering spending and savings. It starts by identifying the hard benefits (direct, visible cost reductions, efficiency improvements), then soft savings.  
+
+| Hard Benefits                                                        | Soft Benefits                                                                                 |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Reduced** spending on compute, storage, networking, security       | Reuse of service and applications → define/redefine solutions by using the same cloud service |
+| **Reductions** in hardware and software purchases (capital expenses) | Increased **developer productivity** and **customer satisfaction**                            |
+| **Reductions** in operational costs, backup, and disaster recovery   | Agile business processes that can **quickly respond** to new opportunities                    |
+| Reduction in operations personnel                                    | Increase in **global reach**                                                                  |
+
