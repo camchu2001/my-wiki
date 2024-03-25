@@ -144,3 +144,4 @@ From the Billing Dashboard, you can access other cost management tools, such as 
 * **AWS Bills** lists the costs that you incurred over the past month for each AWS service with a further breakdown by AWS region and linked account. 
 * **AWS Cost Explorer** allows viewing your AWS cost data as a graph. 
 * **AWS Budgets** enables creating notifications/alerts (through email or Amazon Simple Notification Service) for when you go over budget for the month, tracking budgets monthly/quarterly/yearly. 
+## 6. Technical Support
