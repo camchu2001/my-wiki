@@ -134,3 +134,13 @@ AWS Organizations can be **access through different interfaces**:
 * Software Development kits (SDKs) 
 * HTTPS Query Application programming interfaces (API)
 	* Use the API to issue HTTPS requests directly to the service. 
+## 5. AWS Billing & Cost Management
+* **AWS Billing and Cost Management** is a service that you use to pay your AWS Bill, monitor usage, and budget expenses. 
+
+![](https://i.imgur.com/uY5vGfQ.png)
+
+From the Billing Dashboard, you can access other cost management tools, such as **AWS Budgets, AWS Cost and Usage Report, AWS Cost Explorer** and also the **AWS Bills** page.
+* **AWS Cost and Usage Report tool** enables accessing comprehensive information about AWS cost and usage. 
+* **AWS Bills** lists the costs that you incurred over the past month for each AWS service with a further breakdown by AWS region and linked account. 
+* **AWS Cost Explorer** allows viewing your AWS cost data as a graph. 
+* **AWS Budgets** enables creating notifications/alerts (through email or Amazon Simple Notification Service) for when you go over budget for the month, tracking budgets monthly/quarterly/yearly. 
