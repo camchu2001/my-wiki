@@ -111,3 +111,26 @@ Six months into cloud migration, Delaware North realized benefits to its data ce
 
 ![](https://i.imgur.com/16U2gCo.png)
 ## 4. AWS Organizations
+Depending on the size of the business, sometimes it’s easier to **assign separate AWS accounts** to each department/team. **AWS Organizations** is an ***account management*** service used to ***consolidate billing of multiple accounts*** into an organization tree with each branch representing department/team. 
+
+![](https://i.imgur.com/S0FiSPa.png)
+*Organizational Units (OUs)
+
+In general, **AWS Organizations enables**: 
+* Policy-based account management 
+* Group based account management
+* Application programming interfaces (APIs) that automate account management
+* Consolidated billing
+### 1. Security with AWS Organizations
+* Control access with AWS **Identity and Access Management** (IAM)
+	* **IAM** policies enable you to allow/deny access to AWS services for **users, groups, and roles,** it cannot restrict the AWS account itself. 
+	* **Service control policies (SCPs)** enable you to allow/deny access to AWS services for individual or group accounts in an organizational unit (OU). → affect the entire account, including all IAM users. 
+### 2. Organizations Setup
+![](https://i.imgur.com/GexwPRN.png)
+
+AWS Organizations can be **access through different interfaces**: 
+* AWS Management Console (browser based)
+* AWS Command Line Interface (AWS CLI) tools (issues command from your system’s CLI)
+* Software Development kits (SDKs) 
+* HTTPS Query Application programming interfaces (API)
+	* Use the API to issue HTTPS requests directly to the service. 
