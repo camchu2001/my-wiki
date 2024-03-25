@@ -41,7 +41,7 @@ There are 3 **fundamental drivers** of cost with AWS.
 
 To <u>evaluate</u> an on-premise solution, consider **capital expenditure** and **long planning cycles**.  
 
-2. A **cloud infrastructure** is purchased from a ***service provider*** who builds and maintains the facilities hardware, and maintenance staff. 
+2. A **cloud infrastructure** is purchased from a ***service provider*** who builds and maintains the facilities' hardware, and maintenance staff. 
 	* a customer pays for what’s used, so scaling up down is simple
 	* costs are easy to estimate because they depend on service use. 
 
@@ -53,10 +53,10 @@ To <u>evaluate</u> AWS Cloud solutions, considers flexibility, agility, **consum
 
 We use TCO to: 
 * **compare the costs** of running an entire infrastructure environment on specific workload **on premises vs. on AWS**. 
-* to budget and making decisions for moving to the cloud. 
+* budget and making decisions for moving to the cloud. 
 
 1. <u>**Cloud**</u>: most costs are **upfront** and **readily calculated** using metrics such as RAM, storage, bandwidth, etc. → certainty over pricing estimates. 
-2. <u>**On-premises**</u>: must consider all direct and indirect costs of running, maitaining a physical server. 
+2. <u>**On-premises**</u>: must consider all direct and indirect costs of running, maintaining a physical server. 
 
 <u>Example</u>: On-premises vs. All-in-cloud
 →You cloud save up to **96%** a year by moving your infrastructure to AWS, saving **$159,913** total.
@@ -73,7 +73,7 @@ Use the **AWS Pricing Calculator** to:
 ![](https://i.imgur.com/ULzzTdb.png)
 
 ### 3. Return on Investment Analysis
-**ROI** an be used to determine that value that’s generated from the impact of moving to the cloud while considering spending and savings. It starts by identifying the hard benefits (direct, visible cost reductions, efficiency improvements), then soft savings.  
+**ROI** can be used to determine that value that’s generated from the impact of moving to the cloud while considering spending and savings. It starts by identifying the hard benefits (direct, visible cost reductions, efficiency improvements), then soft savings.  
 
 | Hard Benefits                                                        | Soft Benefits                                                                                 |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -111,7 +111,7 @@ Six months into cloud migration, Delaware North realized benefits to its data ce
 
 ![](https://i.imgur.com/16U2gCo.png)
 ## 4. AWS Organizations
-Depending on the size of the business, sometimes it’s easier to **assign separate AWS accounts** to each department/team. **AWS Organizations** is an ***account management*** service used to ***consolidate billing of multiple accounts*** into an organization tree with each branch representing department/team. 
+Depending on the size of the business, sometimes it’s easier to **assign separate AWS accounts** to each department/team. **AWS Organizations** is an ***account management*** service used to ***consolidate billing of multiple accounts*** into an organization tree, with each branch representing a department/team. 
 
 ![](https://i.imgur.com/S0FiSPa.png)
 *Organizational Units (OUs)
@@ -141,7 +141,40 @@ AWS Organizations can be **access through different interfaces**:
 
 From the Billing Dashboard, you can access other cost management tools, such as **AWS Budgets, AWS Cost and Usage Report, AWS Cost Explorer** and also the **AWS Bills** page.
 * **AWS Cost and Usage Report tool** enables accessing comprehensive information about AWS cost and usage. 
-* **AWS Bills** lists the costs that you incurred over the past month for each AWS service with a further breakdown by AWS region and linked account. 
+* **AWS Bills** lists the costs that you incurred over the past month for each AWS service, with a further breakdown by AWS region and linked account. 
 * **AWS Cost Explorer** allows viewing your AWS cost data as a graph. 
 * **AWS Budgets** enables creating notifications/alerts (through email or Amazon Simple Notification Service) for when you go over budget for the month, tracking budgets monthly/quarterly/yearly. 
 ## 6. Technical Support
+* Provide unique combination of tools and expertise: 
+	* AWS Support
+	* AWS Support Plans. 
+* Support is provided for: 
+	* Experimenting with AWS
+	* Production use of AWS
+	* Business-critical use of AWS
+* <u>**Proactive guidance**</u>: 
+	* Technical Account Manager (TAM) - only available via the Enterprise Support plan. 
+* <u>**Best Practices**</u>: 
+	* AWS Trusted Advisor
+* <u>**Account Assistance**</u>: 
+	* AWS Support Concierge
+
+### Support Plans
+1. **Basic Support:**
+	* **Free** of charge, offer support for account and billing questions. 
+	* Resource center access, Service Health Dashboard, product FAQs, discussion forums, and support for health checks. 
+
+The rest of the services are **paid** with **unlimited number of technical support cases** with pay by the month pricing and no long-term contracts. 
+
+2. Developer Support: 
+	* Have access to additional features: best practice guidance, client-side diagnostic tools, building block architecture support. 
+	* Support for early development on AWS. 
+
+3. Business Support (and Enterprise):  
+	* Full access to AWS Trusted Advisor and use case guidance. 
+	* Access to an API interacting with Support Center and Trusted Advisor. → automated support case management and trusted advisor operations. 
+4. Enterprise Support:
+	* **Exclusive** access to a technical account manager, white-glove case routing, application architecture guidance, management business reviews and infrastructure event management support.  
+
+<u>**Case Severity and Response Time**</u>
+![](https://i.imgur.com/nnuKSMq.png)

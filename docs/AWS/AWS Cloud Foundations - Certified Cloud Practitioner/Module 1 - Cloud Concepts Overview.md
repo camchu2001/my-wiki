@@ -17,7 +17,7 @@ These *IT resources* run on server computers located in large data centers in nu
 
 * In a ***traditional computing model***, you need to manage and maintain the hardware infrastructure for your software, which require spaces, staff, physical security, lots of planning, and money, etc. 
 → This approach can be labor-intensive, expensive and time-consuming.
-* ***Clouding computing model*** enables you to think as your infrastructure as software. 
+* ***Clouding computing model*** enables you to think of your infrastructure as software. 
 	* It is *flexible*, allowing you to select cloud services that best match your needs. 
 	* You only pay for what you use, when you use it, so you can *scale resources* up and down to match your demand. 
 → These IT resources as treated as temporary and disposable, allowing you to implement solutions quickly with low up-front cost. 
