@@ -110,3 +110,4 @@ Six months into cloud migration, Delaware North realized benefits to its data ce
 → the solution helps Delaware North operate with **greater speed and agility**. 
 
 ![](https://i.imgur.com/16U2gCo.png)
+## 4. AWS Organizations
