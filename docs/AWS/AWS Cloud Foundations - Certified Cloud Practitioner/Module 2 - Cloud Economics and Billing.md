@@ -72,7 +72,8 @@ Use the **AWS Pricing Calculator** to:
 
 ![](https://i.imgur.com/ULzzTdb.png)
 
-**A Return on Investment analysis (ROI)** can be used to determine that value that’s generated from the impact of moving to the cloud while considering spending and savings. It starts by identifying the hard benefits (direct, visible cost reductions, efficiency improvements), then soft savings.  
+### 3. Return on Investment Analysis
+**ROI** an be used to determine that value that’s generated from the impact of moving to the cloud while considering spending and savings. It starts by identifying the hard benefits (direct, visible cost reductions, efficiency improvements), then soft savings.  
 
 | Hard Benefits                                                        | Soft Benefits                                                                                 |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -80,4 +81,32 @@ Use the **AWS Pricing Calculator** to:
 | **Reductions** in hardware and software purchases (capital expenses) | Increased **developer productivity** and **customer satisfaction**                            |
 | **Reductions** in operational costs, backup, and disaster recovery   | Agile business processes that can **quickly respond** to new opportunities                    |
 | Reduction in operations personnel                                    | Increase in **global reach**                                                                  |
+## 3. Case Study
+**Delaware North**, a major food and hospitality company, originated in 1915 as a peanut, popcorn vendor. Today, it’s a leader in food service and hospitality industry. 
 
+<u>**Background:**</u>
+* Growing global company with 200 locations. 
+* 500 million customers, $3 billion annual revenue. 
+
+<u>**Challenge:**</u>
+* Company’s on-premises data center was becoming too expensive and inefficient to support global business operations. 
+* Constant upgrading aging equipment to deploy new solutions. 
+
+<u>**Criteria:**</u>
+* Have a broad solution to handle all workloads. 
+* Able to modify processes to improve efficiency and lower costs. 
+* Eliminate busy work (like patching software). 
+* Achieve a positive return on investment (ROI). 
+
+<u>**Solution:**</u>
+* Moved their on-premises data center to AWS. 
+	* Eliminated 205 servers (90 percent)
+	* Moved nearly all applications to AWS. 
+* Used 3-year Amazon EC2 Reserved Instances
+
+![](https://i.imgur.com/kAhgw1O.png)
+
+Six months into cloud migration, Delaware North realized benefits to its data center consolidation, security compliance, disaster recovery, and faster deployment times for new services. 
+→ the solution helps Delaware North operate with **greater speed and agility**. 
+
+![](https://i.imgur.com/16U2gCo.png)
