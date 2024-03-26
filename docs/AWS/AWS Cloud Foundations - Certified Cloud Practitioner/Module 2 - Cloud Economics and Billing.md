@@ -4,11 +4,8 @@
 > * AWS Organizations
 > * AWS Billing and Cost Management
 > * Technical Support
-> #### **Demo**
-> * Overview of the Billing Dashboard
-> #### **Activities**
-> * AWS Pricing Calculator
-> * Support plans scavenger hunt
+> ### **Demo**
+> * Billing Dashboard
 ## 1. Fundamentals of pricing
 ### 1. AWS Pricing Model
 There are 3 **fundamental drivers** of cost with AWS. 
@@ -155,11 +152,12 @@ AWS Organizations can be **access through different interfaces**:
 
 ![](https://i.imgur.com/uY5vGfQ.png)
 
-From the [Billing Dashboard](https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-100-ACFNDS-20-EN/Module_2_Billing+Dashboard+v1.0.mp4), you can access other cost management tools, such as **AWS Budgets, AWS Cost and Usage Report, AWS Cost Explorer** and also the **AWS Bills** page.
+From the Billing Dashboard, you can access other cost management tools, such as **AWS Budgets, AWS Cost and Usage Report, AWS Cost Explorer** and also the **AWS Bills** page.
 * **AWS Cost and Usage Report tool** enables accessing comprehensive information about AWS cost and usage. 
 * **AWS Bills** lists the costs that you incurred over the past month for each AWS service, with a further breakdown by AWS region and linked account. 
 * **AWS Cost Explorer** allows viewing your AWS cost data as a graph. The Cost Explorer includes a default report that visualizes your costs and usage for your top cost-incurring AWS services in the last **3 months** and a **forecast number for the coming month**. 
 * **AWS Budgets** enables creating notifications/alerts (through email or Amazon Simple Notification Service) for when you go over budget for the month, tracking budgets monthly/quarterly/yearly. 
+### [Billing Dashboard Demo](https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-100-ACFNDS-20-EN/Module_2_Billing+Dashboard+v1.0.mp4)
 ## 6. Technical Support
 * Provide unique combination of tools and expertise: 
 	* AWS Support
