@@ -21,16 +21,29 @@ There are 3 **fundamental drivers** of cost with AWS.
 1. <u>**Pay for what you use**</u>: 
 	* At the end of each month, you only pay for the service that you consume for as long as you use it, with no large upfront-expenses. 
 	* All services are available on demand, so you can **start/stop using a service at any time**, as there are no long term contracts required. 
-2. <u>**Pay less by using more**</u>:
+2. <u>**Pay less when you reserve:**</u>
+	* For certain services like **Amazon Elastic Compute Cloud (Amazon EC2)** and **Amazon Relational Database Service (Amazon RDS)**, you can invest in **reserved capacity**.
+	* With Reserved Instances, you can save up to **75 percent** over equivalent on-demand capacity.
+	* Reserved Instances **options**:
+		* All Upfront Reserved Instance (**AURI**)
+		* Partial Upfront Reserved Instance (**PURI**)
+		* No Upfront Payments Reserved Instance (**NURI**)
+* When you buy **Reserved Instances**, you receive a **greater discount** when you make a **larger upfront payment**. 
+	* You can pay all upfront and receive the largest discount. (AURI)
+	* Partial upfront offer lower discounts, but they give you the option to spend less upfront. (PURI) 
+	* You can choose to spend nothing upfront and receive a smaller discount, which enables you to free capital to spend on other projects. (NURI)
+3. <u>**Pay less by using more**</u>:
 	* You can get volume based **discounts as your usage increases**. 
 	* **Tiered pricing** for services like Amazon Simple Storage Service (Amazon S3), Amazon Elastic Block Store (Amazon EBS), or Amazon Elastic File System (Amazon EFS) → ***the more you use, the less you pay per GB.*** 
 	* Multiple storage services offer options to help **lower pricing** based on your needs and how frequently you access your data. 
-3. <u>**Pay even less as AWS grows**</u>:
+4. <u>**Pay even less as AWS grows**</u>:
 	* AWS passing savings from economies of scale to you. 
 	* Since 2006, AWS has lowered pricing 75 times (as of September 2019). 
 	* Future higher-performing resources replace current resources for no extra charge. 
-4. <u>**Custom pricing**</u>: is available if the current pricing models don’t work for your project. 
-5. <u>**AWS Free Tier**</u>: enables you to gain **free hands-on experience** with the AWS platform, products, and services. It’s free for 1 year for new customers. 
+
+---
+5. <u>**Custom pricing**</u>: is available if the current pricing models don’t work for your project. 
+6. <u>**AWS Free Tier**</u>: enables you to gain **free hands-on experience** with the AWS platform, products, and services. It’s free for 1 year for new customers. 
 	* **Services with no charge**: Amazon VPC, Elastic Beanstalk, Auto Scaling, AWS CloudFormation, AWS Identity and Access Management. 
 	* There might be charges associated with other AWS services that are used with these services. 
 ## 2. Total Cost of Ownership
@@ -58,7 +71,7 @@ We use TCO to:
 1. <u>**Cloud**</u>: most costs are **upfront** and **readily calculated** using metrics such as RAM, storage, bandwidth, etc. → certainty over pricing estimates. 
 2. <u>**On-premises**</u>: must consider all direct and indirect costs of running, maintaining a physical server. 
 
-<u>Example</u>: On-premises vs. All-in-cloud
+<u>Example</u>: **On-premises vs. All-in-cloud**
 →You cloud save up to **96%** a year by moving your infrastructure to AWS, saving **$159,913** total.
 ![](https://i.imgur.com/DkS7RnA.png)
 ### 3. AWS Pricing Calculator
@@ -134,15 +147,18 @@ AWS Organizations can be **access through different interfaces**:
 * Software Development kits (SDKs) 
 * HTTPS Query Application programming interfaces (API)
 	* Use the API to issue HTTPS requests directly to the service. 
+### 3. Limits of AWS Organization
+![](https://i.imgur.com/o9GD2ve.png)
+
 ## 5. AWS Billing & Cost Management
 * **AWS Billing and Cost Management** is a service that you use to pay your AWS Bill, monitor usage, and budget expenses. 
 
 ![](https://i.imgur.com/uY5vGfQ.png)
 
-From the Billing Dashboard, you can access other cost management tools, such as **AWS Budgets, AWS Cost and Usage Report, AWS Cost Explorer** and also the **AWS Bills** page.
+From the [Billing Dashboard](https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-100-ACFNDS-20-EN/Module_2_Billing+Dashboard+v1.0.mp4), you can access other cost management tools, such as **AWS Budgets, AWS Cost and Usage Report, AWS Cost Explorer** and also the **AWS Bills** page.
 * **AWS Cost and Usage Report tool** enables accessing comprehensive information about AWS cost and usage. 
 * **AWS Bills** lists the costs that you incurred over the past month for each AWS service, with a further breakdown by AWS region and linked account. 
-* **AWS Cost Explorer** allows viewing your AWS cost data as a graph. 
+* **AWS Cost Explorer** allows viewing your AWS cost data as a graph. The Cost Explorer includes a default report that visualizes your costs and usage for your top cost-incurring AWS services in the last **3 months** and a **forecast number for the coming month**. 
 * **AWS Budgets** enables creating notifications/alerts (through email or Amazon Simple Notification Service) for when you go over budget for the month, tracking budgets monthly/quarterly/yearly. 
 ## 6. Technical Support
 * Provide unique combination of tools and expertise: 
@@ -155,10 +171,10 @@ From the Billing Dashboard, you can access other cost management tools, such as 
 * <u>**Proactive guidance**</u>: 
 	* Technical Account Manager (TAM) - only available via the Enterprise Support plan. 
 * <u>**Best Practices**</u>: 
-	* AWS Trusted Advisor
+	* AWS Trusted Advisor: online tool provide real-time guidance to help you provision your resources following AWS best practices. 
+	* AWS Trust Advisor help optimize AWS infrastructure, increase security and performance, reduce overall costs, and monitor service limits. 
 * <u>**Account Assistance**</u>: 
 	* AWS Support Concierge
-
 ### Support Plans
 1. **Basic Support:**
 	* **Free** of charge, offer support for account and billing questions. 
@@ -174,7 +190,55 @@ The rest of the services are **paid** with **unlimited number of technical suppo
 	* Full access to AWS Trusted Advisor and use case guidance. 
 	* Access to an API interacting with Support Center and Trusted Advisor. → automated support case management and trusted advisor operations. 
 4. Enterprise Support:
-	* **Exclusive** access to a technical account manager, white-glove case routing, application architecture guidance, management business reviews and infrastructure event management support.  
+	* **Exclusive** access to a **technical account manager**, white-glove case routing, application architecture guidance, management business reviews and infrastructure event management support.  
 
 <u>**Case Severity and Response Time**</u>
 ![](https://i.imgur.com/nnuKSMq.png)
+
+## 7. Sample Questions
+**Question 0:**
+![q0|550](https://i.imgur.com/dCGtCyC.png)
+→ **Answer:** C. AWS Trusted Advisor
+
+**Question 1:**
+![q1|550](https://i.imgur.com/XBSyYzz.png)
+→ **Answer:** AURI, PURI, NURI
+
+**Question 2:**
+![q2|550](https://i.imgur.com/IF9ALHM.png)
+→ **Answer**: AWS Cost Explorer
+
+**Question 3:**
+![q3|550](https://i.imgur.com/IaQj9Mn.png)
+→ **Answer:** False
+
+**Question 4:**
+![q4|550](https://i.imgur.com/ylMsh0j.png)
+→ **Answer:** Storage is typically charged per gigabyte.
+
+**Question 5:**
+![q5|550](https://i.imgur.com/mj8GN0D.png)
+→ **Answer:** Basic, Developer, Business, Enterprise
+
+**Question 6:**
+![q6|550](https://i.imgur.com/KmCznpl.png)
+→ **Answer:** AWS Pricing Calculator
+
+**Question 7:**
+![q7|550](https://i.imgur.com/2yrVnNt.png)
+→ **Answer:** Economies of scale
+
+**Question 8:**
+![q8|550](https://i.imgur.com/C4AZP5B.png)
+→ **Answer:** True
+
+**Question 9:**
+![q9"|550](https://i.imgur.com/rk6zO6D.png)
+→ **Answer:** Provides the ability to create groups of accounts and then attach policies to a group AND Simplifies automating account creation and management by using APIs. 
+
+**Question 10:**
+![q10|550](https://i.imgur.com/pVw2yK0.png)
+→ **Answer:** False
+
+
+
