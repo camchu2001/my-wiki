@@ -195,46 +195,57 @@ The rest of the services are **paid** with **unlimited number of technical suppo
 
 ## 7. Sample Questions
 **Question 0:**
+
 ![q0|550](https://i.imgur.com/dCGtCyC.png)
 → **Answer:** C. AWS Trusted Advisor
 
 **Question 1:**
+
 ![q1|550](https://i.imgur.com/XBSyYzz.png)
 → **Answer:** AURI, PURI, NURI
 
 **Question 2:**
+
 ![q2|550](https://i.imgur.com/IF9ALHM.png)
 → **Answer**: AWS Cost Explorer
 
 **Question 3:**
+
 ![q3|550](https://i.imgur.com/IaQj9Mn.png)
 → **Answer:** False
 
 **Question 4:**
+
 ![q4|550](https://i.imgur.com/ylMsh0j.png)
 → **Answer:** Storage is typically charged per gigabyte.
 
 **Question 5:**
+
 ![q5|550](https://i.imgur.com/mj8GN0D.png)
 → **Answer:** Basic, Developer, Business, Enterprise
 
 **Question 6:**
+
 ![q6|550](https://i.imgur.com/KmCznpl.png)
 → **Answer:** AWS Pricing Calculator
 
 **Question 7:**
+
 ![q7|550](https://i.imgur.com/2yrVnNt.png)
 → **Answer:** Economies of scale
 
 **Question 8:**
+
 ![q8|550](https://i.imgur.com/C4AZP5B.png)
 → **Answer:** True
 
 **Question 9:**
+
 ![q9"|550](https://i.imgur.com/rk6zO6D.png)
 → **Answer:** Provides the ability to create groups of accounts and then attach policies to a group AND Simplifies automating account creation and management by using APIs. 
 
 **Question 10:**
+
 ![q10|550](https://i.imgur.com/pVw2yK0.png)
 → **Answer:** False
 
