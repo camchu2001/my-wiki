@@ -61,9 +61,9 @@ To <u>evaluate</u> AWS Cloud solutions, considers flexibility, agility, **consum
 * TCO considers the **cost of a service + all the costs associated with owning the service**. 
 ![tco-considerations](https://i.imgur.com/xGrI1IZ.png)
 
-We use TCO to: 
-* **compare the costs** of running an entire infrastructure environment on specific workload **on premises vs. on AWS**. 
-* budget and making decisions for moving to the cloud. 
+* We use TCO to: 
+	* **compare the costs** of running an entire infrastructure environment on specific workload **on premises vs. on AWS**. 
+	* budget and making decisions for moving to the cloud. 
 
 1. <u>**Cloud**</u>: most costs are **upfront** and **readily calculated** using metrics such as RAM, storage, bandwidth, etc. → certainty over pricing estimates. 
 2. <u>**On-premises**</u>: must consider all direct and indirect costs of running, maintaining a physical server. 
