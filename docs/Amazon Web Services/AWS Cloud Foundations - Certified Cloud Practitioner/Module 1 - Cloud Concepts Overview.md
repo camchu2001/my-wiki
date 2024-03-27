@@ -132,54 +132,65 @@ A **web service** is any piece of software that makes itself available over the 
 **Question 0:**
 
 ![q0|550](https://i.imgur.com/2ttnDTE.png)
+
 → **Answer**: C
 
 **Question 1:**
 
 ![q1|550](https://i.imgur.com/kxoni7U.png)
+
 → **Answer**: All of the above
 
 **Question 2:**
 
 ![q2|550](https://i.imgur.com/sh7dlEE.png)
+
 → **Answer:** Pay as you go
 
 **Question 3:**
 
 ![q3 | 550](https://i.imgur.com/VIoFaqE.png)
+
 → **Answer:** System administration as a service. 
 
 **Question 4:**
 
 ![q4|550](https://i.imgur.com/67Hjnig.png)
+
 → **Answer:** True
 
 **Question 5:**
 
 ![q5|550](https://i.imgur.com/ZakPSUE.png)
+
 → **Answer:** Pay for racking, stacking, and powering servers
 
 **Question 6:**
 
 ![q6|550](https://i.imgur.com/6aRb4BY.png)
+
 → **Answer:** Multiple procurement cycles, high latency
 
 **Question 7:**
 
 ![q7|550](https://i.imgur.com/Abfdomk.png)
+
 → **Answer:** EC2
 
 **Question 8:**
 
 ![q8|550](https://i.imgur.com/lgD6Bkc.png)
+
 → **Answer:** False → you don’t have to own any hardware
 
 **Question 9:**
 
 ![q9|550](https://i.imgur.com/0jLu94f.png)
+
 → **Answer:** having hundreds of thousands of customer aggregated in the cloud
 
 **Question 10:**
 
 ![q10|550](https://i.imgur.com/HkxlFKp.png)
+
 → **Answer:** AWS Management Console, AWS CLI, SDKs
