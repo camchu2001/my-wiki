@@ -8,9 +8,9 @@
 * The **AWS Global Infrastructure** is designed and built to deliver a **flexible, reliable, scalable**, and **secure** cloud computing environment with high-quality **global network performance**. 
 ![](https://i.imgur.com/9xs8bUX.png)
 ### 1. AWS Regions
-An **AWS Region** is a geographical area with one or more **Availability Zones**. An availability zone consists of one ore more data centers. 
+An **AWS Region** is a geographical area with one or more **Availability Zones**. An availability zone consists of one or more data centers. 
 * To achieve **fault tolerance and stability**, AWS regions are <u>**isolated**</u> from one another. 
-	* Resources in one regions are not automatically replicated to another. 
+	* Resources in one region are not automatically replicated to another. 
 	* It is your responsibility to replicate data across regions if your business requires it. 
 	
 > AWS regions introduced before March 20th → *enabled by default*. Any regions introduced after → disabled by default (you must enable them to use them)
@@ -22,7 +22,7 @@ An **AWS Region** is a geographical area with one or more **Availability Zones**
 * There’s variation to the cost of running services, which can depend on which region you choose. 
 #### 2. Availability Zones
 An AWS region has **multiple isolated locations** that are known as **availability zones**. 
-→ provide the ability to operate applications and databases that are more highly available, fault tolerant, and scalable than they would be in a single data center. 
+→ provide the ability to operate applications and databases that are more highly available, fault-tolerant, and scalable than they would be in a single data center. 
 → when an application is partitioned across availability zones, applications are better isolated and protected from issues. (e.g. a failure of an availability zone doesn’t affect the entire application)
 
 Every availability zone can **include multiple data centers**, typically **three**. Each availability zone is a **fully isolated partition** of AWS Global Infrastructure:
@@ -34,3 +34,14 @@ Every availability zone can **include multiple data centers**, typically **three
 * **AWS recommends replicating data and resources across availability zones** for resiliency. 
 
 ![availability-zone|300](https://i.imgur.com/uvJ7139.png)
+#### 3. AWS Data Centers
+The foundation for AWS infrastructure is the **data centers**, the *location where actual data resides*. 
+* Customers do not specify a data center for the deployment of a resource because **an availability zone is the most granular level of specification**. 
+
+AWS data centers are **designed for security**. 
+* Each location is evaluated to **mitigate environmental risk**. 
+* Data centers are designed with failure in mind. → critical system components are **backed up** across multiple availability zones. 
+* To ensure capacity, AWS monitors service usage to deploy infrastructure and support of availability. 
+* Data centers **locations are not disclosed** and all access to them is restricted. 
+* A data center typically has 50,000 to 80,000 physical servers. 
+####
