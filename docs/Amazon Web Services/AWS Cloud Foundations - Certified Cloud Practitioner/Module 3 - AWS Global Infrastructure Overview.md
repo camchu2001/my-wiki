@@ -84,9 +84,17 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 ![](https://i.imgur.com/x8kcd9P.png)
 
 There are **23** different product or service categories, and each category consists of one or more service.
-#### 1. <u>Storage</u> Category
+#### 1. <u>Storage</u> Service Category
 * **Amazon Simple Storage Service (Amazon S3)**, object storage service offering scalability data availability, security, and performance. 
 * **Amazon Elastic Block Store (Amazon EBS)**, high performance block storage designed for  use with Amazon EC2, for both throughput and transaction-intensive workloads.
 * **Amazon Elastic File System (Amazon EFS)**, provides a scalable fully managed elastic network file system (NFS), for use within AWS Cloud Services and on-premise resources. 
 * **Amazon Simple Storage Services Glacier**, secure, durable, and extremely low cost AWS S3 Cloud storage class for data archiving and long-term backup. 
 #### 2. <u>Compute</u> Service Category
+* **Amazon Compute Cloud (Amazon EC2)**, provides resizable compute capacity as virtual machines in the cloud. 
+* **Amazon EC2 Auto Scaling Service**, enables automatically adding/removing EC2 instances according to the conditions that you define. 
+* **Amazon Elastic Container Service (Amazon ECS)**, highly scalable, highly performance  container orchestration service that provides *Docker containers*. 
+* **Amazon EC2 Container Registry (Amazon ECR)**, is a fully managed Docker container registry that makes  it easier to store, manage, and  deploy Docker container images. 
+* **AWS Elastic Beanstalk**, a service for deploying and scaling web applications and services on familiar servers (Apache, Microsoft IIS).  
+* **AWS Lambda**, enables you to run your code without provisioning or managing servers and pay only when your code is running. 
+* **Amazon Elastic Kubernetes Service (Amazon EKS)**, makes it easy to deploy, manage, and scale containerized applications that use Kubernetes on AWS. 
+* **AWS Fargate**, a compute engine for Amazon ECS, allows running containers  without having to manage servers/clusters. 
