@@ -63,3 +63,14 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 > - **Amazon Route 53** is a Domain Name System (DNS) service. 
 > - Requests going to either one of these services will be routed to the nearest edge location automatically in order to lower latency.
 
+#### 5. AWS Infrastructure Benefits
+* Elasticity and scalability: 
+	* Elastic infrastructure, dynamic adaption of capacity. 
+	* Scalable infrastructure, adapts to accomodate growth. 
+* Fault-tolerance: 
+	* Continues operating properly in the presence of a failure. 
+	* Built-in redundancy of components. 
+* High availability: 
+	* High level of operational performance.
+	* Minimized downtime
+	* No human intervention
