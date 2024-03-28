@@ -73,4 +73,14 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 	* High level of operational performance.
 	* Minimized downtime
 	* No human intervention
+![aws-infrastructure|400](https://i.imgur.com/BJMzz6J.png)
 ## 2. AWS Services & Service Category
+![](https://i.imgur.com/vltGW6m.png)
+### 1. AWS Foundational Services
+**AWS Global Infrastructure** can be broken down into three elements: **Regions, Availability Zones, and Points of Presence**, which include edge locations.
+* provides the platform for a broad set of services, such as networking, storage, compute services, and databases. 
+* delivered as an on demand utility that is available in seconds, with pay-as-you-go pricing. 
+### 2. AWS Categories of Services
+![](https://i.imgur.com/x8kcd9P.png)
+
+There are **23** different product or service categories, and each category consists of one or more service.
