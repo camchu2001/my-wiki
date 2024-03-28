@@ -73,3 +73,4 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 	* High level of operational performance.
 	* Minimized downtime
 	* No human intervention
+## 2. AWS Services & Service Category
