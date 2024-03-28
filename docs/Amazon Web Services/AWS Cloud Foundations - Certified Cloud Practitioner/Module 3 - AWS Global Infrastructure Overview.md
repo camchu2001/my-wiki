@@ -84,3 +84,4 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 ![](https://i.imgur.com/x8kcd9P.png)
 
 There are **23** different product or service categories, and each category consists of one or more service.
+#### 1. <u>Storage</u> Category
