@@ -22,10 +22,8 @@ An **AWS Region** is a geographical area with one or more **Availability Zones**
 * There’s variation to the cost of running services, which can depend on which region you choose. 
 #### 2. Availability Zones
 An AWS region has **multiple isolated locations** that are known as **availability zones**. 
-
-→ provide the ability to operate applications and databases that are more highly available, fault-tolerant, and scalable than they would be in a single data center. 
-
-→ when an application is partitioned across availability zones, applications are better isolated and protected from issues. (e.g. a failure of an availability zone doesn’t affect the entire application)
+* they provide the ability to operate applications and databases that are more highly **available, fault-tolerant, and scalable** than they would be in a single data center. 
+* when an application is partitioned across availability zones, applications are **better isolated and protected from issues**. (e.g. a failure of an availability zone doesn’t affect the entire application)
 
 Every availability zone can **include multiple data centers**, typically **three**. Each availability zone is a **fully isolated partition** of AWS Global Infrastructure:
 * There are currently 69 availability zones worldwide. 
@@ -47,3 +45,21 @@ AWS data centers are **designed for security**.
 * Data centers **locations are not disclosed** and all access to them is restricted. 
 * A data center typically has 50,000 to 80,000 physical servers. 
 #### 4. Points of Presence
+![](https://i.imgur.com/AvQ7dfY.png)
+AWS **Points of Presence** are located in most of the major cities around the world. 
+* By continuously measuring internet connectivity, performance and computing to **find the best way to route requests**, the Points of Presence deliver a better near real-time user experience.
+* They are used by many AWS services, including **Amazon CloudFront**, **Amazon Route 53**, AWS Shield, and AWS Web Application Firewall (AWS WAF) services.
+* Consists of **edge locations** and a much smaller number of **Regional edge caches**. 
+
+1. **Edge locations** are endpoints for CloudFront where content is cached and delivered to end users.
+	* When a user requests content, CloudFront routes the request to the nearest edge location. 
+	* If the content is already cached at that edge location, CloudFront delivers it directly to the user. 
+	* If the content is not cached, CloudFront retrieves it from the origin server and then delivers it to the user.
+2. **Regional edge caches** are used by default with Amazon CloudFront. 
+	* Regional edge caches are used when you have content that is not accessed frequently enough to remain in an edge location.
+	* Regional edge caches absorb this content and provide an alternative to that content having to be fetched from the origin server.
+
+> - **Amazon CloudFront**, a content delivery network used to distribute content to end-users in order to *reduce latency*. 
+> - **Amazon Route 53** is a Domain Name System (DNS) service. 
+> - Requests going to either one of these services will be routed to the nearest edge location automatically in order to lower latency.
+
