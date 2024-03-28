@@ -14,5 +14,5 @@ An **AWS Region** is a geographical area with one or more **Availability Zones**
 	* It is your responsibility to replicate data across regions if your business requires it. 
 	* 
 > AWS regions introduced before March 20th → *enabled by default*. Any regions introduced after → disabled by default (you must enable them to use them)
-
 #### Selecting a Region
+It’s imperative to consider data governance and legal requirements when selecting an AWS
