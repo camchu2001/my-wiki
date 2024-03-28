@@ -22,7 +22,9 @@ An **AWS Region** is a geographical area with one or more **Availability Zones**
 * There’s variation to the cost of running services, which can depend on which region you choose. 
 #### 2. Availability Zones
 An AWS region has **multiple isolated locations** that are known as **availability zones**. 
+
 → provide the ability to operate applications and databases that are more highly available, fault-tolerant, and scalable than they would be in a single data center. 
+
 → when an application is partitioned across availability zones, applications are better isolated and protected from issues. (e.g. a failure of an availability zone doesn’t affect the entire application)
 
 Every availability zone can **include multiple data centers**, typically **three**. Each availability zone is a **fully isolated partition** of AWS Global Infrastructure:
@@ -44,4 +46,4 @@ AWS data centers are **designed for security**.
 * To ensure capacity, AWS monitors service usage to deploy infrastructure and support of availability. 
 * Data centers **locations are not disclosed** and all access to them is restricted. 
 * A data center typically has 50,000 to 80,000 physical servers. 
-####
+#### 4. Points of Presence
