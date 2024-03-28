@@ -56,7 +56,7 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 	* If the content is already cached at that edge location, CloudFront delivers it directly to the user. 
 	* If the content is not cached, CloudFront retrieves it from the origin server and then delivers it to the user.
 2. **Regional edge caches** are used by default with Amazon CloudFront. 
-	* Regional edge caches are used when you have content that is not accessed frequently enough to remain in an edge location.
+	* Used when you have content that is not accessed frequently enough to remain in an edge location.
 	* Regional edge caches absorb this content and provide an alternative to that content having to be fetched from the origin server.
 
 > - **Amazon CloudFront**, a content delivery network used to distribute content to end-users in order to *reduce latency*. 
@@ -65,7 +65,7 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 #### 5. AWS Infrastructure Benefits
 * **Elasticity and scalability**: 
 	* Elastic infrastructure, dynamic adaption of capacity. 
-	* Scalable infrastructure, adapts to accomodate growth. 
+	* Scalable infrastructure, adapts to accommodate growth. 
 * **Fault-tolerance**: 
 	* Continues operating properly in the presence of a failure. 
 	* Built-in redundancy of components. 
