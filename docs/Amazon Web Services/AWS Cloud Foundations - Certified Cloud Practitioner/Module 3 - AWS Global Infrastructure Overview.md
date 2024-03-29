@@ -84,9 +84,9 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 There are **23** different product or service categories, and each category consists of one or more service.
 #### 1. <u>Storage</u> Service Category
 * **Amazon Simple Storage Service (Amazon S3)**, object storage service offering scalability data availability, security, and performance. 
-* **Amazon Elastic Block Store (Amazon EBS)**, high performance block storage designed for use with Amazon EC2, for both throughput and transaction-intensive workloads.
+* **Amazon Elastic Block Store (Amazon EBS)**, high performance block storage designed for use with Amazon EC2, for both *throughput and transaction-intensive* workloads.
 * **Amazon Elastic File System (Amazon EFS)**, provides a scalable fully managed elastic network file system (NFS), for use within AWS Cloud Services and on-premise resources. 
-* **Amazon Simple Storage Services Glacier**, secure, durable, and extremely low cost AWS S3 Cloud storage class for data archiving and long-term backup. 
+* **Amazon Simple Storage Services Glacier**, secure, durable, and extremely low cost AWS S3 Cloud storage class for data archiving and long-term *backup*. 
 #### 2. <u>Compute</u> Service Category
 * **Amazon Compute Cloud (Amazon EC2)**, provides resizable compute capacity as virtual machines in the cloud. 
 * **Amazon EC2 Auto Scaling Service**, enables automatically adding/removing EC2 instances according to the conditions that you define. 
@@ -105,7 +105,7 @@ There are **23** different product or service categories, and each category cons
 * **Amazon Virtual Private Cloud (Amazon VPC)**, enables provision of logically isolated sections of the AWS Cloud to launch AWS resources in a virtual network that you define. 
 * **Elastic Load Balancing**, automatically distributes incoming application traffic across multiple targets (Amazon EC2 instances, containers, IP addresses, Lambda functions). 
 * **Amazon CloudFront (CDN)**, delivery network that security delivers data, videos, applications, and application programming interfaces (APIs), to customer globally with low latency and high transfer speed. 
-* **Amazon Transit Gateway**, enables customers to connect their Amazon Virtual Private Cloud and their on-premises networks to a single centrally managed gateway. 
+* **Amazon Transit Gateway**, connect Amazon Virtual Private Cloud and on-premises networks to a single centrally managed gateway. 
 * **Amazon Route 53**, scalable cloud domain name system web service to reliably route end suers to the Internet application. (DNS)
 * **AWS Direct Connect**, establish a dedicated private network connection, from your data center/office to AWS → to reduce costs and increase bandwidth throughput. 
 * **AWS VPN**, provides a private tunnel for network/device to the AWS global network. 
