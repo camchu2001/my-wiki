@@ -157,7 +157,7 @@ There are **23** different product or service categories, and each category cons
 
 ![q5|550](https://i.imgur.com/lUSlF0W.png)
 
-→ **Answer:** Elastic and scalable, fault tolerant. 
+→ **Answer:** Fault tolerant, elastic and scalable. 
 
 **Question 6:**
 
