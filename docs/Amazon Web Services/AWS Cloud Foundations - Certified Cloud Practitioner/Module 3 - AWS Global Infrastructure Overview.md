@@ -85,7 +85,7 @@ There are **23** different product or service categories, and each category cons
 #### 1. <u>Storage</u> Service Category
 * **Amazon Simple Storage Service (Amazon S3)**, object storage service offering scalability data availability, security, and performance. 
 * **Amazon Elastic Block Store (Amazon EBS)**, high performance block storage designed for use with Amazon EC2, for both *throughput and transaction-intensive* workloads.
-* **Amazon Elastic File System (Amazon EFS)**, provides a scalable fully managed elastic network file system (NFS), for use within AWS Cloud Services and on-premise resources. 
+* **Amazon Elastic File System (Amazon EFS)**, scalable fully managed elastic network file system (NFS), for use within AWS Cloud Services and on-premise resources. 
 * **Amazon Simple Storage Services Glacier**, secure, durable, and extremely low cost AWS S3 Cloud storage class for data archiving and long-term *backup*. 
 #### 2. <u>Compute</u> Service Category
 * **Amazon Compute Cloud (Amazon EC2)**, provides resizable compute capacity as virtual machines in the cloud. 
@@ -116,3 +116,7 @@ There are **23** different product or service categories, and each category cons
 * **AWS Artifact**, provides on-demand access to AWS security and compliance reports, online agreements. 
 * **AWS Key Management Service (AWS KMS)**, create/manage encryption keys. 
 * **AWS Shield**, safeguards application running on AWS. 
+#### 6. <u>Cost Management Service</u> Category
+* **AWS Cost and Usage Report**, *comprehensive* set of AWS cost usage data available. 
+* **AWS Budgets**, set custom budgets alert when AWS costs/usage exceeds budgeted amount. 
+* **AWS Cost Explorer**, visualize and manage AWS cost and usage overtime.
