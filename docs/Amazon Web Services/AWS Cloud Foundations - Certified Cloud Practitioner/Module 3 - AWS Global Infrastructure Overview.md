@@ -33,7 +33,9 @@ Every availability zone can **include multiple data centers**, typically **three
 * You choose your availability zones. 
 * **AWS recommends replicating data and resources across availability zones** for resiliency. 
 
-![availability-zone|300](https://i.imgur.com/uvJ7139.png)
+| ![availability-zone\|300](https://i.imgur.com/uvJ7139.png) |     |
+| ---------------------------------------------------------- | --- |
+
 #### 3. AWS Data Centers
 The foundation for AWS infrastructure is the **data centers**, the *location where actual data resides*. 
 * Customers do not specify a data center for the deployment of a resource because **an availability zone is the most granular level of specification**. 
@@ -73,7 +75,10 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 	* High level of operational performance.
 	* Minimized downtime
 	* No human intervention
-![aws-infrastructure|400](https://i.imgur.com/BJMzz6J.png)
+
+| ![aws-infrastructure\|400](https://i.imgur.com/BJMzz6J.png)<br> |     |
+| --------------------------------------------------------------- | --- |
+
 ## 2. AWS Services & Service Category
 ![](https://i.imgur.com/vltGW6m.png)
 ### 1. AWS Foundational Services
@@ -103,3 +108,4 @@ There are **23** different product or service categories, and each category cons
 * **Amazon Aurora**, a MySQL and PostgreSQL compatible relational database, set up to be 5 times faster than standard MySQL databases, 3 times faster than PostgreSQL databases. 
 * **Amazon Redshift**, enables running analytic queries against petabytes of data stored locally in Amazon, delivers fast performance at any scale. 
 * **Amazon DynamoDB**, fully managed key value and document NoSQL database that delivers single-digit millisecond performance at any scale with built-in security, backup, and restore, and in-memory caching. 
+###
