@@ -97,10 +97,15 @@ There are **23** different product or service categories, and each category cons
 * **Amazon Elastic Kubernetes Service (Amazon EKS)**, makes it easy to deploy, manage, and scale containerized applications that use Kubernetes on AWS. 
 * **AWS Fargate**, a compute engine for Amazon ECS, allows running containers  without having to manage servers/clusters. 
 #### 3. <u>Database</u> Service Category
-* **Amazon Relational Database Service (Amazon RDS)**, easy to set up, operate, and scalable relational database in the cloud, providing resizable capacity while automating time-consuming administration (hardware provisioning, database setup, patching, and backups). 
+* **Amazon Relational Database Service (Amazon RDS)**, relational database in the cloud, providing resizable capacity while automating time-consuming administration (hardware provisioning, database setup, patching, and backups). 
 * **Amazon Aurora**, a MySQL and PostgreSQL compatible relational database, set up to be 5 times faster than standard MySQL databases, 3 times faster than PostgreSQL databases. 
 * **Amazon Redshift**, enables running analytic queries against petabytes of data stored locally in Amazon, delivers fast performance at any scale. 
-* **Amazon DynamoDB**, fully managed key value and document NoSQL database that delivers single-digit millisecond performance at any scale with built-in security, backup, and restore, and in-memory caching. 
+* **Amazon DynamoDB**, NoSQL database that delivers single-digit millisecond performance at any scale with built-in security, backup, and restore, and in-memory caching. 
 #### 4. <u>Networking & Content Delivery</u> Service Category
-*  **Amazon Virtual Private Cloud (Amazon VPC)**, enables provision of logically isolated sections of the AWS Cloud to launch AWS resources in a virtual network that you define. 
-* 
+* **Amazon Virtual Private Cloud (Amazon VPC)**, enables provision of logically isolated sections of the AWS Cloud to launch AWS resources in a virtual network that you define. 
+* **Elastic Load Balancing**, automatically distributes incoming application traffic across multiple targets (Amazon EC2 instances, containers, IP addresses, Lambda functions). 
+* **Amazon CloudFront (CDN)**, delivery network that security delivers data, videos, applications, and application programming interfaces (APIs), to customer globally with low latency and high transfer speed. 
+* **Amazon Transit Gateway**, enables customers to connect their Amazon Virtual Private Cloud and their on-premises networks to a single centrally managed gateway. 
+* **Amazon Route 53**, scalable cloud domain name system web service to reliably route end suers to the Internet application. (DNS)
+* **AWS Direct Connect**, establish a dedicated private network connection, from your data center/office to AWS → reduce costs and increase bandwidth throughput. 
+* **AWS VPN**, provides a private tunnel for network/device to the AWS global network. 
