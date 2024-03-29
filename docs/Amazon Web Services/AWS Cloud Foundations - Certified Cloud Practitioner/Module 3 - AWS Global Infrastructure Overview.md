@@ -129,4 +129,9 @@ There are **23** different product or service categories, and each category cons
 * **AWS Trusted Advisor**, online tool to help optimize performance and security using AWS best practices. 
 * **AWS Well-Architected Tool**, help reviewing and improving workloads. 
 * **AWS Cloud Trail**, tracks users’ activities and API usage across AWS accounts
+## 3. Sample Questions
+**Question 0:** 
 
+![q0|550](https://i.imgur.com/eyWs1gW.png)
+
+→ **Answer:** B. 
