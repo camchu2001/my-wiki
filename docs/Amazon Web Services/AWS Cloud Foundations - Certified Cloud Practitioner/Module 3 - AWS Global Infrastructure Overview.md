@@ -98,3 +98,8 @@ There are **23** different product or service categories, and each category cons
 * **AWS Lambda**, enables you to run your code without provisioning or managing servers and pay only when your code is running. 
 * **Amazon Elastic Kubernetes Service (Amazon EKS)**, makes it easy to deploy, manage, and scale containerized applications that use Kubernetes on AWS. 
 * **AWS Fargate**, a compute engine for Amazon ECS, allows running containers  without having to manage servers/clusters. 
+#### 3. <u>Database</u> Service Category
+* **Amazon Relational Database Service (Amazon RDS)**, easy to set up, operate, and scalable relational database in the cloud, providing resizable capacity while automating time-consuming administration (hardware provisioning, database setup, patching, and backups). 
+* **Amazon Aurora**, a MySQL and PostgreSQL compatible relational database, set up to be 5 times faster than standard MySQL databases, 3 times faster than PostgreSQL databases. 
+* **Amazon Redshift**, enables running analytic queries against petabytes of data stored locally in Amazon, delivers fast performance at any scale. 
+* **Amazon DynamoDB**, fully managed key value and document NoSQL database that delivers single-digit millisecond performance at any scale with built-in security, backup, and restore, and in-memory caching. 
