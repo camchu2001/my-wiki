@@ -99,23 +99,23 @@ There are **23** different product or service categories, and each category cons
 #### 3. <u>Database</u> Service Category
 * **Amazon Relational Database Service (Amazon RDS)**, relational database in the cloud, providing resizable capacity while automating time-consuming administration (hardware provisioning, database setup, patching, and backups). 
 * **Amazon Aurora**, a MySQL and PostgreSQL compatible relational database, set up to be 5 times faster than standard MySQL databases, 3 times faster than PostgreSQL databases. 
-* **Amazon Redshift**, enables running analytic queries against petabytes of data stored locally in Amazon, delivers fast performance at any scale. 
+* **Amazon Redshift**, enables running *analytic queries* against petabytes of data stored locally in Amazon, delivers fast performance at any scale. 
 * **Amazon DynamoDB**, NoSQL database that delivers single-digit millisecond performance at any scale with built-in security, backup, and restore, and in-memory caching. 
 #### 4. <u>Networking & Content Delivery</u> Service Category
-* **Amazon Virtual Private Cloud (Amazon VPC)**, enables provision of logically isolated sections of the AWS Cloud to launch AWS resources in a virtual network that you define. 
+* **Amazon Virtual Private Cloud (Amazon VPC)**, enables you to provision logically isolated sections of the AWS Cloud.
 * **Elastic Load Balancing**, automatically distributes incoming application traffic across multiple targets (Amazon EC2 instances, containers, IP addresses, Lambda functions). 
 * **Amazon CloudFront (CDN)**, delivery network that security delivers data, videos, applications, and application programming interfaces (APIs), to customer globally with low latency and high transfer speed. 
 * **Amazon Transit Gateway**, connect Amazon Virtual Private Cloud and on-premises networks to a single centrally managed gateway. 
-* **Amazon Route 53**, scalable cloud domain name system web service to reliably route end suers to the Internet application. (DNS)
+* **Amazon Route 53**, scalable cloud domain name system (DNS) web service to reliably route end suers to the Internet application.
 * **AWS Direct Connect**, establish a dedicated private network connection, from your data center/office to AWS → to reduce costs and increase bandwidth throughput. 
 * **AWS VPN**, provides a private tunnel for network/device to the AWS global network. 
 #### 5. <u>Security, identity, and compliance</u> Service Category
-* **AWS Identity and Access Management (IAM)**, manage access to AWS services and resources securely. 
+* **AWS Identity and Access Management (IAM)**, manage access to AWS services and resources securely.
 * **AWS Organizations**, restrict what services and actions are allowed in your accounts. 
 * **Amazon Cognito**, allows adding user authentication and access control to your web and mobile apps. 
 * **AWS Artifact**, provides on-demand access to AWS security and compliance reports, online agreements. 
 * **AWS Key Management Service (AWS KMS)**, create/manage encryption keys. 
-* **AWS Shield**, safeguards application running on AWS. 
+* **AWS Shield**, a managed **Distributed Denial of Service (DDoS)** that safeguards application running on AWS. 
 #### 6. <u>Cost Management</u> Service Category
 * **AWS Cost and Usage Report**, *comprehensive* set of AWS cost usage data available. 
 * **AWS Budgets**, set custom budgets alert when AWS costs/usage exceeds budgeted amount. 
@@ -135,3 +135,4 @@ There are **23** different product or service categories, and each category cons
 ![q0|550](https://i.imgur.com/eyWs1gW.png)
 
 → **Answer:** B. 
+
