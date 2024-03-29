@@ -4,7 +4,6 @@
 > * Introduction to cloud computing
 > * Advantages to cloud computing 
 > * Introduction to Amazon Web Services (AWS)
-
 > * AWS Cloud Adoption Framework (AWS CAF)
 ## 1. Introduction to Cloud Computing
 > **Resources**
