@@ -31,7 +31,7 @@ Every availability zone can **include multiple data centers**, typically **three
 * They are designed for fault isolation. 
 * They are interconnected with other availability zones by using high-speed private networking. 
 * You choose your availability zones. 
-* **AWS recommends replicating data and resources across availability zones** for resiliency. 
+* **AWS recommends replicating data and resources across multiple availability zones** for resiliency. 
 ![availability-zone|300](https://i.imgur.com/uvJ7139.png)
 #### 3. AWS Data Centers
 The foundation for AWS infrastructure is the **data centers**, the *location where actual data resides*. 
@@ -66,8 +66,7 @@ AWS **Points of Presence** are located in most of the major cities around the wo
 	* Elastic infrastructure, dynamic adaption of capacity. 
 	* Scalable infrastructure, adapts to accommodate growth. 
 * **Fault-tolerance**: 
-	* Continues operating properly in the presence of a failure. 
-	* Built-in redundancy of components. 
+	* Continues operating properly in the presence of a failure thanks to built-in redundancy of components. 
 * **High availability**: 
 	* High level of operational performance.
 	* Minimized downtime
@@ -130,9 +129,62 @@ There are **23** different product or service categories, and each category cons
 * **AWS Well-Architected Tool**, help reviewing and improving workloads. 
 * **AWS Cloud Trail**, tracks users’ activities and API usage across AWS accounts
 ## 3. Sample Questions
-**Question 0:** 
+**Question 1:**
 
-![q0|550](https://i.imgur.com/eyWs1gW.png)
+![q1|550](https://i.imgur.com/HNzKvrV.png)
 
-→ **Answer:** B. 
+→ **Answer:** AWS edge locations.
 
+**Question 2:**
+
+![q2|550](https://i.imgur.com/KRgYezR.png)
+
+→ **Answer:** decrease.
+
+**Question 3:**
+
+![q3|550](https://i.imgur.com/A4XMgj2.png)
+
+→ **Answer:** True.
+
+**Question 4:**
+
+![q4|550](https://i.imgur.com/nWN1R5F.png)
+
+→ **Answer:** AWS Regions.
+
+**Question 5:**
+
+![q5|550](https://i.imgur.com/lUSlF0W.png)
+
+→ **Answer:** Elastic and scalable, fault tolerant. 
+
+**Question 6:**
+
+![q6|550](https://i.imgur.com/VfQwYXp.png)
+
+→ **Answer:** True.
+
+**Question 7:**
+
+![q7|550](https://i.imgur.com/slwYe7t.png)
+
+→ **Answer:** A data center can be used for more than one Availability Zone.
+
+**Question 8:**
+
+![q8|550](https://i.imgur.com/FarKtYk.png)
+
+→ **Answer:** A region is a physical location that has multiple Availability Zones AND Each Region is located in a separated geographic area.
+
+**Question 9:**
+
+![q9|550](https://i.imgur.com/Bz7lD4i.png)
+
+→ **Answer:** multiple.
+
+**Question 10:**
+
+![q10|550](https://i.imgur.com/ZWZKmcg.png)
+
+→ **Answer:** False. 
