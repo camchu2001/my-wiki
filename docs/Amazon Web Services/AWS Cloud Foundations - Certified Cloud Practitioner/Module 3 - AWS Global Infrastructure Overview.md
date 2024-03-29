@@ -116,7 +116,17 @@ There are **23** different product or service categories, and each category cons
 * **AWS Artifact**, provides on-demand access to AWS security and compliance reports, online agreements. 
 * **AWS Key Management Service (AWS KMS)**, create/manage encryption keys. 
 * **AWS Shield**, safeguards application running on AWS. 
-#### 6. <u>Cost Management Service</u> Category
+#### 6. <u>Cost Management</u> Service Category
 * **AWS Cost and Usage Report**, *comprehensive* set of AWS cost usage data available. 
 * **AWS Budgets**, set custom budgets alert when AWS costs/usage exceeds budgeted amount. 
 * **AWS Cost Explorer**, visualize and manage AWS cost and usage overtime.
+#### 7. <u>Manage and Governance</u> Service Category
+* **AWS Management Console**, web-based user interface for accessing your AWS account. 
+* **AWS Config**, helps track resource inventory and changes. 
+* **AWS Cloud Watch**, monitor resources and applications. 
+* **AWS Auto Scaling**, allows scaling multiple resources to meet demand. 
+* **AWS Command Line Interface (AWS CLI)**, unified tool to manage AWS services. 
+* **AWS Trusted Advisor**, online tool to help optimize performance and security using AWS best practices. 
+* **AWS Well-Architected Tool**, help reviewing and improving workloads. 
+* **AWS Cloud Trail**, tracks users’ activities and API usage across AWS accounts
+
