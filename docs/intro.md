@@ -2,7 +2,6 @@
 sidebar_position: 1
 slug: /
 ---
-
 # Welcome! 
 Hello there~ My name is **Cam**, welcome to my wiki page! This wiki site acts like a giant notebook for everything I am learning and am interested in, all written down using **Obsidian**. 
 
