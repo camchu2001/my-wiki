@@ -1,15 +1,13 @@
-Updated on March 28th 2024. 
+*Updated on March 28th 2024.* 
 1. Produce my own music album. 
-2. Write my own novel. 
+2. Write my novel. 
 3. Travel to 30 countries. 
 4. Build my own house. 
 5. Read 1000 books. 
-6. Start a company. 
+6. Open a handicraft shop. 
 7. Learn to dance. 
-8. Have a career I’m proud of and good at.  
-9. Build a house for myself. 
-10. Have my own book library at home. 
-11. Learn to speak 5 languages. 
-12. Learn to draw, sketch and create my own sketch book. 
-13. Learn a traditional instrument.
-14. Body transformation.
+8. Have my own book library at home. 
+9. Learn to speak 5 languages. 
+10. Learn to draw, sketch and create my own sketch book. 
+11. Learn a traditional instrument.
+12. Body transformation.
