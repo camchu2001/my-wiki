@@ -9,7 +9,7 @@ Updated on March 28th 2024. 
 8. Have a career I’m proud of and good at.  
 9. Build a house for myself. 
 10. Have my own book library at home. 
-11. Speak 5 languages. 
+11. Learn to speak 5 languages. 
 12. Learn to draw, sketch and create my own sketch book. 
 13. Learn a traditional instrument.
 14. Body transformation.
