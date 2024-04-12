@@ -1,4 +1,3 @@
-*Updated on March 28th 2024.* 
 1. Produce my own music album. 
 2. Write my novel. 
 3. Travel to 30 countries. 
