@@ -13,6 +13,6 @@ Hopefully, you’ll find something interesting here. Thanks for stopping by!
 This simple wiki page was built using Docusaurus, it’s a site generator that you can use to quickly build and publish your personal notes. I find their [Docs](https://docusaurus.io/docs) really helpful, if you want, you can take a look at my [GitHub](https://github.com/camchu2001/my-wiki) for a better idea.
 
 # Publish your Obsidian notes
-My workflow is really simple. What I do is back up my Obsidian notes to my GitHub repo using Obsidian’s [Git plugin](https://github.com/denolehov/obsidian-git), then deploy my wiki site using [netlify](https://www.netlify.com/).
+My workflow is really simple. What I do is back up my Obsidian notes to my GitHub repo using Obsidian’s [Git plugin](https://github.com/denolehov/obsidian-git), then deploy my wiki site using [Netlify](https://www.netlify.com/).
 
 There are other ways to publish and [deploy](https://docusaurus.io/docs/deployment) your notes, there are also better and more optimized workflows to do it, too, I just did what is the easiest and fastest way for me. In the future, I’ll continue to improve this workflow, hopefully soon 😊. 
