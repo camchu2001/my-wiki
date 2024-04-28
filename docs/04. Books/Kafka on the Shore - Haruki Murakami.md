@@ -1,3 +1,8 @@
+---
+tags:
+  - Reading
+---
+
 ## Summary
 ### Kafka Tamura
 Kafka Tamura ran away from home on his 15th birthday. With everything he needs in his backpack, he travelled far away from home on a cheap bus ride to Takamatsu, settled in a room in a business hotel. He saw Komura library on the newspaper once and decided to pay the library a visit. He loved the place immediately, so he stops by every day. The librarian, Oshima, grew fond of him. Every day after he ran away, he would visit the library and read books all day, go to the public gym to stay in shape, and then come back to the business hotel. One day, he found himself knocked out on the side of the road, far from where he last remembered he was. He saw blood on his shirt and grew scared, so he decided to ditch the hotel, called Sakura, a girl he met on the bus on his way here, and asked for her help. Sakura let him stay at her place for one night, she comforted him. Kafka tells her about his situation, how his mother took his adopted sister and ran away. He didn’t tell her about his friend, Crow, or the omen living inside him though.

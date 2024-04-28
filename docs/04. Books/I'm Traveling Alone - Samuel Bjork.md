@@ -1,3 +1,8 @@
+---
+tags:
+  - Reading
+---
+
 A mysterious case where 6 year-olds were murdered by a serial killer. Who’s the murderer, what’s their motive? How will the police force unveil the secret? Does the case have to do with an old case 6 years ago where a baby girl went missing?
 ![](https://i.imgur.com/FJzCKyY.png)
 

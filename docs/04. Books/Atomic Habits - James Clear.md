@@ -1,3 +1,8 @@
+---
+tags:
+  - Reading
+---
+
 Summary: The book studies the formation of habits, showing how by starting with _**small changes**_, we can achieve _**remarkable results**_ in our every day life.
 ## The Fundamentals
 1. **The Surprising Power of _Atomic_ Habits**
