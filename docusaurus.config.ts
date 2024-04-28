@@ -42,6 +42,7 @@ const config: Config = {
 
           routeBasePath: '/', // Serve the docs at the site's root
           /* other docs plugin options */
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: './src/css/custom.css',
