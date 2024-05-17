@@ -19,9 +19,11 @@
   --ifm-h4-font-size: 130%;
 }
 
-h1 {
- —ifm-h1-font-size: 2rem;
+html.plugin-blog h2, 
+html.plugin-blog.blog-post-page h1 {
+    font-size: 80%;
 }
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
