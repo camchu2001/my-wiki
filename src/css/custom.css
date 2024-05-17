@@ -15,10 +15,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-size-base: 200%; 
-/*   --ifm-h1-font-size: 10%; 
+  --ifm-font-size-base: 110%; 
+  --ifm-h1-font-size: 10%; 
   --ifm-h2-font-size: 10%; 
-  --ifm-h4-font-size: 110%;  */
+  --ifm-h4-font-size: 200%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
