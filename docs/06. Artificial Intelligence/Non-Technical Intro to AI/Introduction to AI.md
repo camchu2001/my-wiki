@@ -25,4 +25,24 @@ AI is already creating **tremendous amounts of value in the software industry**
 
 Supervised learning also lies at the heart of generative AI systems. These systems learn from huge amounts of text so that given a few words as the input, the models can predict the next word that comes after → **Large Language Models (LLM)**. LLM generates new texts by repeatedly predicting what is the next word they should output. 
 #### Large Language Models (LLM)
-Large language models are built by using supervised learning to **train a model to repeatedly predict the next word.** 
+Large language models are built by using supervised learning to **train a model to repeatedly predict the next word.** For example, the AI model is exposed to a massive corpus of text data from the internet, books, etc. This could include a sentence like *” My favorite drink is lychee bubble tea.”* This single sentence would be turned into a lot of A to B data points (input-output pairs) for the model to learn to predict the <u>next word (B)</u> given a few words as <u>input (A)</u>. 
+
+![](https://i.imgur.com/8aPM9sy.png)
+
+When we train a very large AI system on a lot of data (hundreds of billions of words), we get a Large Language Model like ChatGPT that given an initial text (prompt), is very good at generating additional words in response to that prompt. By training on a diverse corpus, it picks up on language patterns, grammar, semantics, and how words are statistically likely to follow one another in context.
+* There are some more technical details behind how the model learns to follow instructions rather than just predict. 
+* Developers also make the model less likely to generate inappropriate outputs, e.g. discrimination, harmful instructions, etc. 
+#### Why is Supervised Learning taking off now?
+For a **traditional AI**, as you feed it more data, its performance gets a bit better. But beyond a certain point, it did not get that much better. 
+* e.g. a speech recognition system did not get that much more accurate, or an online advertising system didn't get that much more accurate at showing the most relevant ads even as you gave it more data.
+
+But with modern AI, like deep neural networks, can continue to benefit from larger and larger amounts of data. As you feed these models more data, their performance keeps improving for much longer compared to traditional approaches.
+* For many important applications like speech recognition, online advertising, self-driving cars, etc., achieving very high accuracy is crucial. Deep learning models can reach those high-performance levels when trained on massive datasets.
+
+![](https://i.imgur.com/Zf6arK8.png)
+
+The figure indicates, that to hit a high level of performance, you need two things: 
+* have a lot of data → big data
+* the ability to train large, high-capacity neural network models. 
+
+The rise of specialized hardware like GPUs has enabled training these large neural networks on massive datasets to get very good performance. This scalability - *increasing both the data and model sizes* - is what has powered the recent breakthroughs in areas like generative AI and large language models (LLMs).
