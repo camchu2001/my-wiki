@@ -1,5 +1,5 @@
 > **Resource**
-> [AI For Everyone](https://www.deeplearning.ai/courses/ai-for-everyone/)
+> - [AI For Everyone](https://www.deeplearning.ai/courses/ai-for-everyone/)
 
 According to a study by McKinsey Global Institute, AI would create an additional 13 to $22 trillion of value annually by 2033. 
 * Of this 13 to 22 trillion to $4,000,000,000,000 is predicted to come from generative AI.
