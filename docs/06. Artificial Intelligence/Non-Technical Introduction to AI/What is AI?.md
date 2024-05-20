@@ -11,6 +11,6 @@ AI is already creating **tremendous amounts of value in the software industry**
 2. **Generative AI:** an AI technology that can produce high-quality content, such as text, images, audio, or code. Generative models learn patterns in input data (training data) and generate new, similar data. e.g. ChatGPT, Bard, Midjourney, DAL-E. 
 	* This is a bit *more general purpose*. Chat GPT can be a copy editor, brainstorming partner, text summarizer, etc. 
 3. **AGI (artificial general intelligence):** a ***hypothetical*** AI system that could **perform any intellectual tasks that a human can**, and maybe more.
-	* AI research is taking small steps to achieve AGI, but realistically, we are still very far from AGI. No AGI system exists yet and it may take many technological breakthroughs before we get there. 
+	* AI research is taking small steps to achieve AGI, but realistically, we are still very far from AGI. No AGI system exists yet. it may take many technological breakthroughs before we get there. 
 
 > The rapid progress in ANI and generative AI has caused people to conclude that there’s a lot of progress in AGI, which leads to overblown and unnecessary fears about sentient robots taking over humanity. 
