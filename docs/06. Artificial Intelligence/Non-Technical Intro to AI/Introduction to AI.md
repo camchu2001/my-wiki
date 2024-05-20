@@ -25,4 +25,4 @@ AI is already creating **tremendous amounts of value in the software industry**
 
 Supervised learning also lies at the heart of generative AI systems. These systems learn from huge amounts of text so that given a few words as the input, the models can predict the next word that comes after → **Large Language Models (LLM)**. LLM generates new texts by repeatedly predicting what is the next word they should output. 
 #### Large Language Models (LLM)
-Large language models are built by using supervised learning to **train a model to repeatedly predict the next word.**
+Large language models are built by using supervised learning to **train a model to repeatedly predict the next word.** 
