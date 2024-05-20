@@ -16,7 +16,7 @@ AI is already creating **tremendous amounts of value in the software industry**
 > The rapid progress in ANI and generative AI has caused people to conclude that there’s a lot of progress in AGI, which leads to overblown and unnecessary fears about sentient robots taking over humanity. 
 
 ## II. Machine Learning
-### 1. Supervised Learning
+### Supervised Learning
 **Supervised learning** is the most commonly used type of machine learning. In supervised learning, the model is trained on a **labeled** dataset, where the **inputs are mapped to known outputs**. The goal is to develop a model capable of making accurate predictions on new input data, based on the patterns learned from the labeled training set.
 
 <u>**Example:**</u> In spam detection (A = email, B = spam/not spam), the algorithms learn to <u>classify emails (A</u>) as <u>spam or not spam (B)</u> based on many examples of emails labeled as spam or not spam.
