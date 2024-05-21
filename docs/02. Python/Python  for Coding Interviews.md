@@ -1,9 +1,7 @@
-**I am no Python expert** 😔. I am a web developer and have been using mostly JavaScript and TypeScript in my past work experience. However, I use Python for my coding interviews. Its concise syntax and dynamic typing (a blessing and a curse 😅) enable writing solutions to coding problems quickly under pressure. 
-
-This document should serve as a **quick guide to Python**, introducing you to the syntax and basic components that you’d need when using Python for coding interviews. It is **not a comprehensive** guide to Python, you’d need more than this to build an entire software with Python. 
+This document should serve as a **quick guide to Python**, introducing syntax and basic components that one would need when using Python for coding interviews.
 
 > **Resource:** [Neetcode](https://www.youtube.com/watch?v=0K_eZGS5NsU) (highly recommend this channel)
-## 1. Variables
+### 1. Variables
 Python is a **dynamically typed** programming language, so **data type is determined at run time**. That’s why unlike other statically typed languages like C++ or Java, you don’t need to declare the data type, at all!
 ```python
 n = 0 # no need to specify data type 
@@ -38,8 +36,8 @@ n = None
 print("n =", n) 
 >>> n = None
 ```
-## 2. Conditional Statements
-Python doesn't use parentheses or curly braces. Instead, it relies on **indentation** to define code blocks. This syntax may be confusing for beginners (it definitely was for me 😅).
+### 2. Conditional Statements
+Python doesn't use parentheses or curly braces. Instead, it relies on **indentation** to define code blocks.
 ```python
 n = 1
 if n > 2:
@@ -59,7 +57,7 @@ if ((n > 2 and
   n != m) or n == m):
   n += 1
 ```
-## 3. Loops
+### 3. Loops
 ```python
 # while loops are relatively straightforward
 n = 0
@@ -87,7 +85,7 @@ for i in range(5, 1, -1):
   print(i)
 >>> 5, 4, 3, 2
 ```
-## 4. Math
+### 4. Math
 * **Division**: 
 ```python
 # division is decimal by default
@@ -153,7 +151,7 @@ print(math.pow(2, 200))
 print(math.pow(2, 200) < float("inf"))
 >>> True
 ```
-## 5. Arrays - Lists
+### 5. Arrays - Lists
 ```python
 arr = [1, 2, 3] # declare
 print(arr)
@@ -336,4 +334,4 @@ arr[0][1] = 2
 print(arr)
 >>> [[0, 2, 0, 0], [0, 2, 0, 0], [0, 2, 0, 0], [0, 2, 0, 0]]
 ```
-## 6. Strings
+### 6. Strings
