@@ -1,10 +1,10 @@
 This document should serve as a **quick guide to Python**, introducing syntax and basic components that one would need when using Python for coding interviews.
 
-> **Resource:** [Neetcode](https://www.youtube.com/watch?v=0K_eZGS5NsU) (highly recommend this channel)
+> **Resource:** [Neetcode](https://www.youtube.com/watch?v=0K_eZGS5NsU)
 ### 1. Variables
 Python is a **dynamically typed** programming language, so **data type is determined at run time**. That’s why unlike other statically typed languages like C++ or Java, you don’t need to declare the data type, at all!
 ```python
-n = 0 # no need to specify data type 
+n = 0 # no need to specify a data type 
 print("n =", n) 
 >>> n = 0
 
@@ -22,7 +22,7 @@ print("m =", m)
 print("z =", z)
 ```
 
-**Incrementing** in Python is a little bit different: 
+**Incrementing** in Python is a little bit **different**: 
 ```python
 n = n + 1 # good
 n+= 1     # good
@@ -98,12 +98,12 @@ print(5 // 2)
 
 # NOTE: round DOWN not towards 0
 print(-3 // 2) # -1.5, but gets rounded DOWN to -2, not UP to -1
->>> 2 
+>>> -2 
 
 # to round towards zero
 # use decimal division then convert to int
 print(int(-3 / 2))
->>> 1
+>>> -1
 ```
 
 * **Mod**: 
@@ -157,7 +157,7 @@ arr = [1, 2, 3] # declare
 print(arr)
 >>> [1, 2, 3]
 ```
-* Python’s arrays are dynamic, so they can be used as a **stack**. The **`append()` and `pop()` operations** take a time complexity of **O(1)**, because it’s just inserting/removing the last index’s value.  
+* Python’s arrays are dynamic, so they can be used as a **stack**. The **`append()` and `pop()` operations** take a time complexity of **O(1)** because it’s just inserting/removing the last index’s value.  
 ```python
 # insert to the end
 arr.append(4) 
@@ -171,7 +171,7 @@ print(arr)
 >>> [1, 2, 3, 4] # popped value 5
 ```
 
-* **Insertion and deletion** a value into/from a random index `ith` has a **O(n)** complexity, because it needs to shift all the other elements to the right/left: 
+* **Insertion and deletion** of a value into/from a random index `ith` has an **O(n)** complexity because it needs to shift all the other elements to the right/left: 
 ```python
 # insert a value to a specific index
 arr.insert(1, 7) # inserting 7 to index 1
@@ -179,7 +179,7 @@ arr.insert(6, 7) # inserting 7 to index 6, even if 6 is out of bound it works
 print(arr)
 >>> [1, 7, 2, 3, 4, 7]
 
-# remove the first occurence of a value from the array
+# remove the first occurrence of a value from the array
 arr.remove(7) # removing element 7 from the array
 print(arr)
 >>> [1, 2, 3, 4, 7]
@@ -200,7 +200,7 @@ print(arr[-2])
 >>> 0
 ```
 
-* **Initializing** an array of size n with default value of 1
+* **Initializing** an array of size n with a default value of 1:
 ```python
 n = 5
 arr = [1] * n
@@ -211,7 +211,7 @@ print(len(arr))
 >>> 5
 ```
 
-* **Sublists (slicing)**, last index is non-inclusive: 
+* **Sublists (slicing)**, the last index is non-inclusive: 
 ```python
 arr = [1, 2, 3, 4]
 print(arr[1:3])
@@ -221,7 +221,7 @@ print(arr[0: 4])
 >>> [1, 2, 3, 4]
 ```
 
-* **Unpacking**, helpful for when you want to go through a list of pairs: 
+* **Unpacking** assignment allows assigning the elements of a list (or any iterable) to multiple variables in a single statement. 
 ```python
 # the number of variables = number of elements in the array
 a, b, c = [1, 2, 3]
@@ -315,23 +315,154 @@ print(arr)
 * **2-D Lists**: 
 ```python
 # declare a 2D array
-arr = [[0] * 4 for i in range(4)]
+arr = [[0] * 3 for i in range(4)]
 print(arr)
->>> [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+>>> [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 arr[0][1] = 2
 print(arr)
->>> [[0, 2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+>>> [[0, 2, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 # however, this syntax won't work
-# it's the same list is replicated 4 times, not 4 different lists
-# -> when you modify one inner list, you end up modifying all of them
 arr = [[0] * 4] * 4
 print(arr)
->>> [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+>>> [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
+# it's the same list is replicated 4 times, not 4 different lists
+# -> when you modify one inner list, you end up modifying all of them
 arr[0][1] = 2
 print(arr)
->>> [[0, 2, 0, 0], [0, 2, 0, 0], [0, 2, 0, 0], [0, 2, 0, 0]]
+>>> [[0, 2, 0], [0, 2, 0], [0, 2, 0], [0, 2, 0]]
 ```
 ### 6. Strings
+```python
+s = "abc"
+
+# we can performing slicing on strings
+print(s[0:2])
+>>> "ab"
+```
+* Strings are **immutable**, so we cannot change individual characters of a string. However, we can **update** a string. Because this operation creates a new string, it has a complexity of **O(n)**. 
+```python
+# strings are immutable 
+# attempting to reassign a part of the string will raise an error
+s[0] = "A"
+print(s)
+
+# we can update a string, this creates a new string "abcdef
+s+= "def"
+print(s)
+>>> "abcdef"
+```
+
+* Numeric strings can be converted into integers using `int()` and numbers can be converted to strings, using `str()`.
+```python
+# adding two numbers
+print(int("123") + int("123"))
+>>> 246
+
+# adding two strings
+print(str(123) + str(123))
+>>> 123123
+```
+
+* You can get the ASCII value of a character using `ord()`: 
+```python
+print(ord("a"))
+>>> 97
+
+print(ord("b"))
+>>> 98
+```
+
+* You can join a list of strings with `join()`. 
+```python
+# syntax for join() method
+string = delimiter.join(iterable)
+```
+- `delimiter`: The string that will be **inserted between each element** of the iterable. It can be an empty string `''`, a single-character, or a multi-character string.
+- `iterable`: The iterable whose elements will be concatenated into the string.
+
+```python
+my_list = ['apple', 'banana', 'orange']
+result = "".join(my_list)
+print(result)
+>>> applebananaorange
+
+result = ", ".join(my_list)
+print(result)
+>>> apple, banana, orange
+```
+### 7. Queues
+A queue is a data structure that follows the **First-In-First-Out (FIFO)** principle. In a queue, elements are inserted at the end (enqueue operation) and removed from the front (dequeue operation).
+
+**Queue** is a data type in Python, but it's not a built-in data type like lists or dictionaries. Instead, it's typically implemented using the `queue` module in Python's standard library. Queues in Python are **double-ended queues** by default, allowing efficient insertion and deletion at both ends.
+1. **`append(x)`**: Adds element `x` to the right end of the `deque`.
+2. **`appendleft(x)`**: Adds element `x` to the left end of the `deque`.
+3. **`pop()`**: Removes and returns the rightmost element (the last element) from the `deque`.
+4. **`popleft()`**: Removes and returns the leftmost element (the first element) from the `deque`.
+```python
+# imports the `deque` class from the `collections` module. `deque` stands for "double-ended queue"
+from collections import deque
+
+# creates an empty double-ended queue named `queue`
+queue = deque()
+
+# append elements `1` and `2` to the right end of the queue
+queue.append(1) 
+queue.append(2)
+print(queue)
+>> [1, 2]
+
+# removes and returns the leftmost element
+queue.popleft()
+print(queue)
+>>> [2]
+
+# appends the element `1` to the left end of the queue
+queue.appendleft(1)
+print(queue)
+>>> [1, 2]
+
+#removes and returns the rightmost element (the last element)
+queue.pop()
+print(queue)
+>>> [1]
+```
+### 8. HashSet
+A set is an **unordered collection of <u>unique</u> elements**. It is used to store items without duplicates and provides efficient operations for membership testing, adding, and removing elements.
+
+```python
+# Create an empty set
+mySet = set()
+
+# Add elements to the set
+mySet.add(1)
+mySet.add(2)
+
+# Print the set
+print(mySet)  
+>>> {1, 2}
+
+# Print the length of the set
+print(len(mySet))  
+>> 2
+
+# Check if elements are in the set
+print(1 in mySet)  # Output: True
+print(2 in mySet)  # Output: True
+print(3 in mySet)  # Output: False
+
+# Remove an element from the set
+mySet.remove(2)
+print(2 in mySet)  # Output: False
+
+# Create a set from a list
+print(set([1, 2, 3]))  
+>>> {1, 2, 3}
+
+# Set comprehension
+mySet = {i for i in range(5)}
+print(mySet)  
+>>> {0, 1, 2, 3, 4}
+```
