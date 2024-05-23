@@ -151,7 +151,7 @@ print(math.pow(2, 200))
 print(math.pow(2, 200) < float("inf"))
 >>> True
 ```
-### 5. Arrays - Lists
+### 5. Lists - Array
 ```python
 arr = [1, 2, 3] # declare
 print(arr)
@@ -429,9 +429,9 @@ queue.pop()
 print(queue)
 >>> [1]
 ```
-### 8. HashSet
-A set is an **unordered collection of <u>unique</u> elements**. It is used to store items without duplicates and provides efficient operations for membership testing, adding, and removing elements.
-
+### 8. Sets
+**Set** is an <u>**unordered</u> collection of <u>unique</u> elements**. It is used to store items without duplicates and provides efficient operations for membership testing, adding, and removing elements.
+The `set` data structure is *implemented* using a **hash table (hash map)** which provides average-case constant time complexity O(1) for basic operations such as insertion, deletion, and membership testing.
 ```python
 # Create an empty set
 mySet = set()
@@ -443,6 +443,11 @@ mySet.add(2)
 # Print the set
 print(mySet)  
 >>> {1, 2}
+
+# Set comprehension
+mySet = {i for i in range(5)}
+print(mySet)  
+>>> {0, 1, 2, 3, 4}
 
 # Print the length of the set
 print(len(mySet))  
@@ -460,9 +465,119 @@ print(2 in mySet)  # Output: False
 # Create a set from a list
 print(set([1, 2, 3]))  
 >>> {1, 2, 3}
+```
+### 9. Dictionary - HashMap
+**Dictionary** is an <u>**unordered</u> collection of key-value pairs**. It is similar to a hash map or an associative array in other programming languages. 
+* Dictionaries are defined using curly braces `{}` and consist of **keys and their associated values**, separated by colons (`:`).
+* The keys in a dictionary must be unique and immutable (such as strings, numbers, or tuples), while the values can be of any data type.
+``` python
+# Create an empty dictionary
+myMap = {}
+# alternatively
+myMap = dict()
 
-# Set comprehension
-mySet = {i for i in range(5)}
-print(mySet)  
->>> {0, 1, 2, 3, 4}
+# Add key-value pairs to the dictionary
+myMap["alice"] = 88
+myMap["bob"] = 77
+
+print(myMap)  
+>>> {'alice': 88, 'bob': 77}
+
+# Create a dictionary using literal notation
+myMap = {"alice": 90, "bob": 70}
+print(myMap)  
+>>> {'alice': 90, 'bob': 70}
+
+# Dictionary comprehension
+myMap = {i: 2*i for i in range(3)}
+print(myMap)  
+>>> {0: 0, 1: 2, 2: 4}
+```
+
+Operations that you can perform on a dictionary: 
+```python
+# Update the value associated with a key
+myMap["alice"] = 80
+
+# Access the value associated with a key
+print(myMap["alice"])  # Output: 80
+
+# Check if a key exists in the dictionary
+print("alice" in myMap)  # Output: True
+
+# Remove a key-value pair from the dictionary
+myMap.pop("alice")
+print("alice" in myMap)  # Output: False
+```
+
+```python
+# Looping through dictionaries
+myMap = {"alice": 90, "bob": 70}
+
+# Iterate over keys
+for key in myMap:
+    print(key, myMap[key])
+# Output:
+# alice 90
+# bob 70
+
+# Iterate over values
+for val in myMap.values():
+    print(val)
+# Output:
+# 90
+# 70
+
+# Iterate over key-value pairs
+for key, val in myMap.items():
+    print(key, val)
+# Output:
+# alice 90
+# bob 70
+```
+### 10. Tuples
+A **tuple** is an **ordered, immutable collection** of items. It is similar to a list, but with a key difference: tuples are immutable, meaning their elements cannot be modified after creation. Tuples are defined using parentheses `()` and can contain elements of different data types.
+```python
+# Creating a tuple
+tup = (1, 2, 3)
+print(tup)  # Output: (1, 2, 3)
+
+# Accessing elements of a tuple
+print(tup[0])  # Output: 1
+print(tup[-1])  # Output: 3
+
+# Attempting to modify a tuple (not allowed)
+# tup[0] = 0  # This will raise a TypeError
+
+# Tuples can be used as keys in dictionaries or sets
+myMap = {(1, 2): 3}
+print(myMap[(1, 2)])  # Output: 3
+
+mySet = set()
+mySet.add((1, 2))
+print((1, 2) in mySet)  # Output: True
+
+# Lists cannot be used as keys (unhashable)
+# myMap[[3, 4]] = 5  # This will raise a TypeError
+```
+### 11. Functions
+**Functions** are defined using the `def` keyword, followed by the function name, parentheses `()` for arguments, and a colon `:`. The code block within the function must be indented.
+```python
+def myFunc(n, m):
+    return n * m
+
+print(myFunc(3, 4))  # Output: 12
+```
+1. **Nested Functions and Closures**:
+Python supports nested functions, which are functions defined inside other functions. Nested functions have access to variables from the enclosing (outer) function's scope, even after the outer function has finished executing. This is known as a closure. 
+```python
+def outer(a, b):
+    c = "c"
+
+    def inner():
+        return a + b + c
+
+    return inner()
+
+print(outer("a", "b"))  # Output: 'abc'
 ```
