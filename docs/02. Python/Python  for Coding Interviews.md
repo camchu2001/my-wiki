@@ -568,8 +568,9 @@ def myFunc(n, m):
 
 print(myFunc(3, 4))  # Output: 12
 ```
+
 1. **Nested Functions and Closures**:
-Python supports nested functions, which are functions defined inside other functions. Nested functions have access to variables from the enclosing (outer) function's scope, even after the outer function has finished executing. This is known as a closure. 
+Nested functions are functions defined inside other functions. Nested functions have access to variables from the enclosing (outer) function's scope, even after the outer function has finished executing. This is known as a closure. 
 ```python
 def outer(a, b):
     c = "c"
@@ -579,5 +580,54 @@ def outer(a, b):
 
     return inner()
 
-print(outer("a", "b"))  # Output: 'abc'
+print(outer("a", "b"))  
+>>> 'abc'
+```
+
+2. **Modifying Variables and Nonlocal**:
+Variables defined within a function are considered local to that function. To modify a variable from an outer scope (e.g., a global variable or a variable in an enclosing function), you need to use the `global` or `nonlocal` keyword.
+```python
+def double(arr, val):
+    def helper():
+        # Modifying array works
+        for i, n in enumerate(arr):
+            arr[i] *= 2
+
+        # Will only modify val in the helper scope
+        # val *= 2
+
+        # This will modify val outside helper scope
+        nonlocal val
+        val *= 2
+
+    helper()
+    print(arr, val)
+
+nums = [1, 2]
+val = 3
+double(nums, val)  # Output: [2, 4] 6
+```
+### 12. Classes
+A **class** is a **blueprint for creating objects**. Objects are instances of classes and can have attributes (data) and methods (functions) that operate on that data.
+```python
+class MyClass:
+    # Constructor
+    def __init__(self, nums):
+        # Create member variables
+        self.nums = nums
+        self.size = len(nums)
+    
+    # Method to get the length of nums
+    def getLength(self):
+        return self.size
+
+    # Method to get double the length of nums
+    def getDoubleLength(self):
+        return 2 * self.getLength()
+
+# Create an instance of MyClass
+myObj = MyClass([1, 2, 3])
+print(myObj.getLength())         # Output: 3
+print(myObj.getDoubleLength())   # Output: 6
+
 ```
