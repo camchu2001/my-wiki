@@ -430,7 +430,7 @@ print(queue)
 >>> [1]
 ```
 ### 8. Sets
-**Set** is an <u>**unordered**</u> collection of <u>**unique**</u> elements. It is used to store items without duplicates and provides efficient operations for membership testing, adding, and removing elements.
+**Set** is an **<u>unordered</u> collection of <u>unique</u> elements**. It is used to store items without duplicates and provides efficient operations for membership testing, adding, and removing elements.
 The `set` data structure is *implemented* using a **hash table (hash map)** which provides average-case constant time complexity O(1) for basic operations such as insertion, deletion, and membership testing.
 ```python
 # Create an empty set
@@ -467,7 +467,7 @@ print(set([1, 2, 3]))
 >>> {1, 2, 3}
 ```
 ### 9. Dictionary - HashMap
-**Dictionary** is an <u>**unordered</u> collection of key-value pairs**. It is similar to a hash map or an associative array in other programming languages. 
+**Dictionary** is an **<u>unordered</u> collection of key-value pairs**. It is similar to a hash map or an associative array in other programming languages. 
 * Dictionaries are defined using curly braces `{}` and consist of **keys and their associated values**, separated by colons (`:`).
 * The keys in a dictionary must be unique and immutable (such as strings, numbers, or tuples), while the values can be of any data type.
 ``` python
