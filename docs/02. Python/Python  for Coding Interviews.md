@@ -430,7 +430,7 @@ print(queue)
 >>> [1]
 ```
 ### 8. Sets
-**Set** is an **<u>unordered</u> collection of <u>unique</u> elements**. It is used to store items without duplicates and provides efficient operations for membership testing, adding, and removing elements.
+**Set** is an **<u>unordered</u> collection of <u>unique</u> elements. It is used to store items without duplicates and provides efficient operations for membership testing, adding, and removing elements.
 The `set` data structure is *implemented* using a **hash table (hash map)** which provides average-case constant time complexity O(1) for basic operations such as insertion, deletion, and membership testing.
 ```python
 # Create an empty set
