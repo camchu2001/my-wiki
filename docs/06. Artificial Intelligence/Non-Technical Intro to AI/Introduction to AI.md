@@ -47,6 +47,9 @@ The figure indicates, that to hit a high level of performance, you need two thin
 
 The rise of specialized hardware like GPUs has enabled training these large neural networks on massive datasets to get very good performance. This scalability - *increasing both the data and model sizes* - is what has powered the recent breakthroughs in areas like generative AI and large language models (LLMs).
 ## III. Data
-**Data** is usually presented in the form of datasets (tables of data), or spreadsheets containing input features and output targets.
-It is up to the business use case to decide what constitutes the input features (A) and output targets (B) in the dataset.
+**Data** is usually presented as datasets (tables of data), or spreadsheets containing input features and output targets. It is up to the business use case to decide what constitutes the input features (A) and output targets (B) in the dataset. 
+
+<u>**Example 1:**</u> Given the data set: 
+* one might decide that the *size of the house and the number of bedrooms* is A and the *price of the house* is B, and have an AI system learn this input to output or A to B mapping.
+* one might decide that input A is *how much someone spends*, and B is just the *size of the house* in square feet → let them know the size of the house they can afford.
 ![](https://i.imgur.com/zRNXOib.png)
