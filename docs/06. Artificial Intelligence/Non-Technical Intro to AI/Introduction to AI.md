@@ -86,3 +86,20 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 #### 2. Proper Use of Data
 - Involve an AI team early in the data collection process to get feedback on what types of data to collect and how to structure the data collection infrastructure.
 - This back-and-forth between the IT team (collecting data) and the AI team (providing feedback) helps guide the development of the right data infrastructure.
+### 3. Data Quality & Types of Data
+#### 1. Data Quality Issues
+Data is messy, there can be data quality issues such as: 
+- **Incorrect labels or data**: Data can contain inaccurate labels or values, which can mislead the AI system. Example: A house price listed as $1 instead of $100,000.
+- **Missing values**: Some data points or features may be missing or unknown, creating gaps in the dataset.
+
+![](https://i.imgur.com/f4jZpJ9.png)
+#### 2. Types of Data
+<u>**1. Unstructured Data**</u>
+* Data that does not have a predefined structure or format, such as images, audio, and text.
+* Humans can easily interpret unstructured data, but AI systems require specific techniques to process and understand this type of data.
+* Examples: Image data for cat recognition, audio data for speech recognition, ỏ text data for spam detection.
+
+<u>**2. Structured Data**</u>
+* Data that is organized in a tabular or spreadsheet format, with rows and columns representing instances and features, respectively.
+* Structured data is typically easier for AI systems to process and analyze.
+* Example: A dataset with columns for house size, number of bedrooms, and price.
