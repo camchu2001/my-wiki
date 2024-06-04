@@ -53,7 +53,7 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 * one might decide that the *size of the house and the number of bedrooms* is A and the *price of the house* is B, and have an AI system learn this input to output or A to B mapping.
 * one might decide that input A is _the budget or amount someone wants to spend_, and output B is the _size of the house_ in square feet → the system can recommend the appropriate house size based on the provided budget.
 ![](https://i.imgur.com/zRNXOib.png)
-### Acquiring Data 
+### 1. Acquiring Data 
 #### 1. Manual Labeling
 **Manual labeling** is the process of **manually annotating or labeling raw data** by human annotators or subject matter experts. 
 * It involves going through individual data instances (such as images, text, or audio files) and assigning labels, categories, or annotations to them. 
@@ -76,3 +76,13 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 	- If you're building a predictive maintenance system for factory machines, you could partner with a factory that has already collected data on machine parameters (like temperature, and pressure) and failure events. Through this partnership, the factory can provide you with their existing dataset, which you can then use to train your predictive maintenance models.
 
 > **Note**: When downloading datasets from websites or obtaining them from partners, it's crucial to respect licensing and copyright agreements
+
+### 2. Use and Misuse of Data
+#### 1. Misuse of Data
+1. Assuming that collecting a large amount of data first, without involving an AI team, will lead to a "perfect" dataset for AI applications later.
+    - This is a bad strategy, as the AI team's feedback is crucial in shaping the data collection process from the beginning.
+2. Believing that having a large amount of data alone is sufficient for an AI team to create valuable AI applications.
+    - More data is generally better, but having a lot of data doesn't guarantee that it will be valuable or useful for a specific AI application.
+#### 2. Proper Use of Data
+- Involve an AI team early in the data collection process to get feedback on what types of data to collect and how to structure the data collection infrastructure.
+- This back-and-forth between the IT team (collecting data) and the AI team (providing feedback) helps guide the development of the right data infrastructure.
