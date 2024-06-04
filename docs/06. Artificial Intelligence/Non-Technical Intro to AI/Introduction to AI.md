@@ -46,3 +46,7 @@ The figure indicates, that to hit a high level of performance, you need two thin
 * the ability to train large, high-capacity neural network models. 
 
 The rise of specialized hardware like GPUs has enabled training these large neural networks on massive datasets to get very good performance. This scalability - *increasing both the data and model sizes* - is what has powered the recent breakthroughs in areas like generative AI and large language models (LLMs).
+## III. Data
+**Data** is usually presented in the form of datasets (tables of data), or spreadsheets containing input features and output targets.
+It is up to the business use case to decide what constitutes the input features (A) and output targets (B) in the dataset.
+![](https://i.imgur.com/zRNXOib.png)
