@@ -57,3 +57,17 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 ### Acquiring Data 
 #### 1. Manual Labeling
 For example, one might collect a set of pictures, go through each one, and manually label them. This is a tried and true way of getting a dataset where you have both A and B. 
+#### 2. Observing Behaviors
+Example: Consider an ecommerce or an electronic commerce website, where you offer things to users 
+
+at different prices, and you can just observe if they buy your product or not. 
+
+So just through the act of either buying or not buying your product, 
+
+you may be able to collect a data set like this. 
+
+We can store the user ID, the time the user visit your website, the price you 
+
+offer the product to the users, as well as whether or not they purchased it. 
+
+And so, just by using your website, users can generate this data from you.
