@@ -56,4 +56,4 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 
 ### Acquiring Data 
 #### 1. Manual Labeling
-For example, one might collect a set of pictures, go through each one, and manually label them. 
+For example, one might collect a set of pictures, go through each one, and manually label them. This is a tried and true way of getting a dataset where you have both A and B. 
