@@ -51,12 +51,24 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 
 <u>**Example 1:**</u> Given the data set: 
 * one might decide that the *size of the house and the number of bedrooms* is A and the *price of the house* is B, and have an AI system learn this input to output or A to B mapping.
-* one might decide that input A is *how much someone spends*, and B is just the *size of the house* in square feet → let them know the size of the house they can afford.
+* one might decide that input A is _the budget or amount someone wants to spend_, and output B is the _size of the house_ in square feet → the system can recommend the appropriate house size based on the provided budget.
 ![](https://i.imgur.com/zRNXOib.png)
 
 ### Acquiring Data 
 #### 1. Manual Labeling
-For example, one might collect a set of pictures, go through each one, and manually label them. This is a tried and true way of getting a dataset where you have both A and B. 
+**Manual labeling** is the process of **manually annotating or labeling raw data** by human annotators or subject matter experts. 
+* It involves going through individual data instances (such as images, text, or audio files) and assigning labels, categories, or annotations to them. 
+* This method is particularly useful when *creating datasets for supervised machine learning tasks*, where labeled examples are required for training models.
 #### 2. Observing Behaviors
-Example: Consider an e-commerce or an electronic commerce website. One can observe if users buy their product or not and collect a dataset based on the users’ behavior. 
+**Observing behaviors** refers to the method of collecting data by observing and recording the interactions, actions, or behaviors of entities or systems.
+* This can involve observing user behaviors on websites, applications, or platforms or observing the behavior of physical systems or machines. 
+* This method allows for capturing real-world data without the need for manual labeling, and it is commonly used in applications like *recommendation systems, predictive maintenance, or user behavior analysis*.
+
+<u>**Example 1**</u>: Consider an e-commerce or an electronic commerce website. One can observe if users buy their product or not and collect a dataset based on the users’ behavior. 
 ![](https://i.imgur.com/iImkfWD.png)
+
+<u>**Example 2:** </u> If you run a large machine in a factory, and you want to predict if a machine is about to fail or has a fault, then just by observing the behavior of a machine, you can record a dataset. 
+→ You can then define your *input features (A) as the machine ID, temperature, pressure, and other sensor readings*, and the *output target (B) as whether the machine failed or not*, allowing the system to predict potential failures based on the observed data.
+
+![](https://i.imgur.com/HeAMumn.png)
+
