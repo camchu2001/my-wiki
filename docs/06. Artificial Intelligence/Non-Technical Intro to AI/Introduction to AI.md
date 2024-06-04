@@ -53,3 +53,7 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 * one might decide that the *size of the house and the number of bedrooms* is A and the *price of the house* is B, and have an AI system learn this input to output or A to B mapping.
 * one might decide that input A is *how much someone spends*, and B is just the *size of the house* in square feet → let them know the size of the house they can afford.
 ![](https://i.imgur.com/zRNXOib.png)
+
+### Acquiring Data 
+#### 1. Manual Labeling
+For example, one might collect a set of pictures, go through each one, and manually label them. 
