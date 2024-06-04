@@ -53,7 +53,6 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 * one might decide that the *size of the house and the number of bedrooms* is A and the *price of the house* is B, and have an AI system learn this input to output or A to B mapping.
 * one might decide that input A is _the budget or amount someone wants to spend_, and output B is the _size of the house_ in square feet → the system can recommend the appropriate house size based on the provided budget.
 ![](https://i.imgur.com/zRNXOib.png)
-
 ### Acquiring Data 
 #### 1. Manual Labeling
 **Manual labeling** is the process of **manually annotating or labeling raw data** by human annotators or subject matter experts. 
@@ -71,4 +70,9 @@ The rise of specialized hardware like GPUs has enabled training these large neur
 → You can then define your *input features (A) as the machine ID, temperature, pressure, and other sensor readings*, and the *output target (B) as whether the machine failed or not*, allowing the system to predict potential failures based on the observed data.
 
 ![](https://i.imgur.com/HeAMumn.png)
+#### 3. Download from websites/partnerships
+- **Downloading from Websites**: involves accessing and downloading publicly available datasets from various websites or online repositories.
+- **Obtaining Data from Partners**: involves acquiring data by collaborating or partnering with organizations or entities that have already collected relevant data. 
+	- If you're building a predictive maintenance system for factory machines, you could partner with a factory that has already collected data on machine parameters (like temperature, and pressure) and failure events. Through this partnership, the factory can provide you with their existing dataset, which you can then use to train your predictive maintenance models.
 
+> **Note**: When downloading datasets from websites or obtaining them from partners, it's crucial to respect licensing and copyright agreements
