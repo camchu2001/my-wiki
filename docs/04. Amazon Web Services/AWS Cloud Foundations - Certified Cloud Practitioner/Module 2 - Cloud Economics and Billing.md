@@ -16,21 +16,21 @@ There are 3 **fundamental drivers** of cost with AWS.
 	* For outbound data transfers, it is **aggregated across services** and **charged at the outbound data transfer rate**. 
 ### 2. Pay for AWS
 1. <u>**Pay for what you use**</u>: 
-	* At the end of each month, you only pay for the service that you consume for as long as you use it, with no large upfront-expenses. 
+	* At the end of each month, you only pay for the service that you consume for as long as you use it, with no large upfront expenses. 
 	* All services are available on demand, so you can **start/stop using a service at any time**, as there are no long term contracts required. 
 2. <u>**Pay less when you reserve:**</u>
 	* For certain services like **Amazon Elastic Compute Cloud (Amazon EC2)** and **Amazon Relational Database Service (Amazon RDS)**, you can invest in **reserved capacity**.
-	* With Reserved Instances, you can save up to **75 percent** over equivalent on-demand capacity.
+	* With Reserved Instances, you can save up to **75 percent** over the equivalent on-demand capacity.
 	* Reserved Instances **options**:
 		* All Upfront Reserved Instance (**AURI**)
 		* Partial Upfront Reserved Instance (**PURI**)
 		* No Upfront Payments Reserved Instance (**NURI**)
 * When you buy **Reserved Instances**, you receive a **greater discount** when you make a **larger upfront payment**. 
 	* You can pay all upfront and receive the largest discount. (AURI)
-	* Partial upfront offer lower discounts, but they give you the option to spend less upfront. (PURI) 
-	* You can choose to spend nothing upfront and receive a smaller discount, which enables you to free capital to spend on other projects. (NURI)
+	* Partial upfront offers lower discounts, but they give you the option to spend less upfront. (PURI) 
+	* You can choose to spend nothing upfront and receive a smaller discount, which enables you to have free capital to spend on other projects. (NURI)
 3. <u>**Pay less by using more**</u>:
-	* You can get volume based **discounts as your usage increases**. 
+	* You can get volume-based **discounts as your usage increases**. 
 	* **Tiered pricing** for services like Amazon Simple Storage Service (Amazon S3), Amazon Elastic Block Store (Amazon EBS), or Amazon Elastic File System (Amazon EFS) → ***the more you use, the less you pay per GB.*** 
 	* Multiple storage services offer options to help **lower pricing** based on your needs and how frequently you access your data. 
 4. <u>**Pay even less as AWS grows**</u>:
@@ -44,7 +44,7 @@ There are 3 **fundamental drivers** of cost with AWS.
 	* **Services with no charge**: Amazon VPC, Elastic Beanstalk, Auto Scaling, AWS CloudFormation, AWS Identity and Access Management. 
 	* There might be charges associated with other AWS services that are used with these services. 
 ## 2. Total Cost of Ownership
-### 1. On Premises vs. Cloud 
+### 1. On-premises vs. Cloud 
 1. An **on-premises** infrastructure is installed on a company’s own computers and servers. There are several **fixed costs (capital expenses)** associated with this traditional infrastructure: 
 	* facilities, hardware, licenses, maintenance staff, etc
 	* scaling up can be expensive and time-consuming, scaling down does not reduce fixed costs.  
@@ -55,18 +55,18 @@ To <u>evaluate</u> an on-premise solution, consider **capital expenditure** and 
 	* a customer pays for what’s used, so scaling up down is simple
 	* costs are easy to estimate because they depend on service use. 
 
-To <u>evaluate</u> AWS Cloud solutions, considers flexibility, agility, **consumption-based costs**. 
+To <u>evaluate</u> AWS Cloud solutions, consider flexibility, agility, and **consumption-based costs**. 
 ### 2. Total Cost of Ownership
 **Total Cost of Ownership (TCO)** is the financial *estimate* to help identify direct and indirect costs of a system. 
 * TCO considers the **cost of a service + all the costs associated with owning the service**. 
 ![tco-considerations](https://i.imgur.com/xGrI1IZ.png)
 
 * We use TCO to: 
-	* **compare the costs** of running an entire infrastructure environment on specific workload **on premises vs. on AWS**. 
+	* **compare the costs** of running an entire infrastructure environment on a specific workload **on-premises vs. on AWS**. 
 	* budget and making decisions for moving to the cloud. 
 
 1. <u>**Cloud**</u>: most costs are **upfront** and **readily calculated** using metrics such as RAM, storage, bandwidth, etc. → certainty over pricing estimates. 
-2. <u>**On-premises**</u>: must consider all direct and indirect costs of running, maintaining a physical server. 
+2. <u>**On-premises**</u>: must consider all direct and indirect costs of running, and maintaining a physical server. 
 
 <u>Example</u>: **On-premises vs. All-in-cloud**
 →You cloud save up to **96%** a year by moving your infrastructure to AWS, saving **$159,913** total.
