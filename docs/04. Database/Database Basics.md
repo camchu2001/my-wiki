@@ -1,0 +1,1 @@
+> A **database** is an organized collection of structured information or data. Databases are managed by **Database Management Systems (DBMS)**, a software that provides an interface for users and applications to create, retrieve, update, and delete data efficiently and securely.
