@@ -53,11 +53,19 @@ In database design, the terms **surrogate key** and **natural key** also refer t
 ### 2. Foreign Key
 A **foreign key** is a column or set of columns in one table that refers to the primary key in another table, establishing a link between the two tables.
 
-<u>**Example**</u>: 
+<u>**Example 1**</u>: 
 ![](https://i.imgur.com/wAmG5FV.png)
 A company can have different branches, and we can store information about an employee’s branch using a foreign key. 
-- Within the `Employee` table, we have a foreign key `branch_id`. `branch_id` is the primary key of the `Branch` table. 
+- Within the `employees` table, we have a foreign key `branch_id`. `branch_id` is the primary key of the `branches` table. 
 ![300](https://i.imgur.com/6IiuJCc.png)
-- Now, we will know which branch an employee belongs to without storing branch information on the `Employee` table. 
+- Now, we will know which branch an employee belongs to without storing branch information on the `employees` table. 
 
 A table can **have more than one foreign key** on it. 
+
+<u>**Example 2:** </u>
+Here, the `employees` table has two foreign keys: 
+- `branch_id`, which points to the `branches` table 
+- `super_id`, which defines the supervisor of a particular employee and points back to the `employees` table (the same table)
+→ using the `super_id`, we can define the relationship between employees 
+![](https://i.imgur.com/B7qKuoU.png)
+### 3. Composite Key
