@@ -1,7 +1,7 @@
 > A **database** is an organized collection of structured information or data. Databases are managed by **Database Management Systems (DBMS)**, a software that provides an interface for users and applications to create, retrieve, update, and delete data efficiently and securely.
 
-### I. Database Management System (DBMS)
-It’s a special software program that helps users create and maintain a database on a computer. It   
+## Database Management System (DBMS)
+DBMS is a special software program that helps users create and maintain a database on a computer. It   
 - makes it easy to manage large amounts of information
 - handles security 
 - does backups
@@ -10,7 +10,7 @@ It’s a special software program that helps users create and maintain a databas
 - interacts with other software applications
 
 The database management system is not the actual database, it is the software application that is creating, maintaining, updating, and deleting information from the actual database. 
-### II. Types of Databases
+### Types of Databases
 #### 1. Relational Databases (SQL)
 Organize data into more or more tables. 
 - Each table has columns and rows. 
@@ -39,4 +39,9 @@ Popular **Non-Relational Database Management Systems (NRDBMS)** are **MongoDB, d
 #### 3. Database Queries
 Queries are requests made to the database management system for specific information. 
 As the database’s structure becomes more and more complex, it becomes more difficult to get the specific pieces of information we want. 
-→ We can write a complex database query, instructing the DBMS to grab specific information from the database. 
+→ We can write a complex database query, instructing the DBMS to grab specific information from the database.
+## Database Tables
+![](https://i.imgur.com/eY0TI1I.png)
+
+- A column would define a single attribute, a row is an individual entry in the student table. 
+- When creating a table in the database, we want to create a **primary key attribute** (`student_id`). A primary key is **unique** for each row in the table → defines the rows in the database **uniquely**. 
