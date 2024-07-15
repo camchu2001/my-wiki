@@ -44,4 +44,14 @@ As the database’s structure becomes more and more complex, it becomes more dif
 ![](https://i.imgur.com/eY0TI1I.png)
 
 - A column would define a single attribute, a row is an individual entry in the student table. 
-- When creating a table in the database, we want to create a **primary key attribute** (`student_id`). A primary key is **unique** for each row in the table → defines the rows in the database **uniquely**. 
+### 1. Primary Key
+When creating a table in the database, we want to create a **primary key attribute** (`student_id`). A primary key is **unique** for each row in the table → defines the rows in the database **uniquely**. 
+
+In database design, the terms **surrogate key** and **natural key** also refer to types of primary keys.
+- A **surrogate key** is an artificial key that is not derived from the application data. It is typically a sequential number (like an auto-incremented integer). It has **no** **meaning** or intrinsic value **outside the database** context. → simple, stable, and guarantees uniqueness.
+- A **natural key** is a key that is derived **from the actual data**. It often comes from the business logic, like a Social Security Number (SSN), email address, or a combination of fields → can sometimes be problematic if the business logic/data changes.
+### 2. Foreign Key
+A **foreign key** is an attribute of a database table that links us to another database table. The foreign key stores the primary key of a row in another database table 
+
+<u>**Example**</u>: 
+![](https://i.imgur.com/wAmG5FV.png)
