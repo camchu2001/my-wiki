@@ -54,10 +54,13 @@ In database design, the terms **surrogate key** and **natural key** also refer t
 A **foreign key** is a column or set of columns in one table that refers to the primary key in another table, establishing a link between the two tables.
 
 <u>**Example 1**</u>: 
-![](https://i.imgur.com/wAmG5FV.png)
+
+| ![](https://i.imgur.com/wAmG5FV.png) | ![300](https://i.imgur.com/6IiuJCc.png) |
+| ------------------------------------ | --------------------------------------- |
+|                                      |                                         |
+
 A company can have different branches, and we can store information about an employee’s branch using a foreign key. 
 - Within the `employees` table, we have a foreign key `branch_id`. `branch_id` is the primary key of the `branches` table. 
-![300](https://i.imgur.com/6IiuJCc.png)
 - Now, we will know which branch an employee belongs to without storing branch information on the `employees` table. 
 
 A table can **have more than one foreign key** on it. 
@@ -92,9 +95,9 @@ A **joiner table** is a table in a relational database used to connect two or mo
 <u>**Example**</u>: 
 We have the `employees` and `clients` tables. To express the many-to-many relationship where an employee can work with multiple clients and a client can be served by multiple employees, we create a joiner table called `works_with`.
 
-| ![](https://i.imgur.com/mztkrVp.png) | ![](https://i.imgur.com/O8a9ss7.png)<br> |
-| ------------------------------------ | ---------------------------------------- |
-|                                      |                                          |
+| ![](https://i.imgur.com/mztkrVp.png) | ![](https://i.imgur.com/O8a9ss7.png) |
+| ------------------------------------ | ------------------------------------ |
+|                                      |                                      |
 ```
 
 +--------+-----------+-------------+
