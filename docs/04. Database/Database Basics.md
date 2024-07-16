@@ -86,3 +86,26 @@ A **composite key**, also known as a compound key, is a primary key that consist
 | FL456          | 2024-07-16     | 1C          | Alice Johnson    |
 +----------------+----------------+-------------+------------------+
 ```
+### 4. Joiner Table
+A **joiner table** is a table in a relational database used to connect two or more tables, typically to resolve **many-to-many** relationships. Its primary key is usually a **composite key** composed of foreign keys referencing the primary keys of the tables it's connecting.
+
+<u>**Example**</u>: 
+We have the `employees` and `clients` tables. To express the many-to-many relationship where an employee can work with multiple clients and a client can be served by multiple employees, we create a joiner table called `works_with`.
+
+| ![](https://i.imgur.com/mztkrVp.png) | ![](https://i.imgur.com/O8a9ss7.png)<br> |
+| ------------------------------------ | ---------------------------------------- |
+|                                      |                                          |
+```
+
++--------+-----------+-------------+
+| emp_id | client_id | total_sales |
++--------+-----------+-------------+
+| 107    | 400       | 55,000      |
+| 101    | 400       | 267,000     |
+| 101    | 404       | 22,500      |
++--------+-----------+-------------+
+```
+
+The joiner table `works_with` has a composite primary key consisting of `emp_id` and `client_id`. This combination uniquely identifies each employee-client relationship.
+    - `emp_id` is a foreign key referencing the `employees` table.
+    - `client_id` is likely a foreign key referencing the `clients` table.
