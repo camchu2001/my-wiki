@@ -69,3 +69,20 @@ Here, the `employees` table has two foreign keys:
 → using the `super_id`, we can define the relationship between employees 
 ![](https://i.imgur.com/B7qKuoU.png)
 ### 3. Composite Key
+A **composite key**, also known as a compound key, is a primary key that consists of two or more columns in a table. These columns, when combined, uniquely identify each record in the table. No single column of a composite key is capable of uniquely identifying the records on its own.
+
+<u>**Example**</u>: 
+- `flight_number`: is not unique on its own because the same flight number is used for recurring flights (e.g., daily flights).
+- `departure_date`: is not unique on its own because multiple flights depart on the same day.
+- `seat_number`: is not unique on its own because the same seat number exists on different flights.
+→ When combined, these three columns create a unique identifier for each booking. 
+
+```
++----------------+----------------+-------------+------------------+
+| flight_number* | departure_date*| seat_number*| passenger_name   |
++----------------+----------------+-------------+------------------+
+| FL123          | 2024-07-15     | 12A         | John Doe         |
+| FL123          | 2024-07-15     | 12B         | Jane Smith       |
+| FL456          | 2024-07-16     | 1C          | Alice Johnson    |
++----------------+----------------+-------------+------------------+
+```
